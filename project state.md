@@ -25,6 +25,12 @@ Dự án đã vượt qua giai đoạn scaffold. Phần xã và timeline hiện 
 - Cho phép người dùng tra lại tên xã cũ, mốc sáp nhập, đơn vị kế thừa và xã hiện nay.
 - Tạo nền dữ liệu đủ chắc để sau này mở rộng sang tìm kiếm mạnh hơn, bản đồ hoặc đóng góp tư liệu.
 
+## Working rules
+
+- Mọi ảnh dùng trên site phải được tải về lưu trong `assets/images/` hoặc thư mục con phù hợp, không tham chiếu trực tiếp tới URL ngoài trong dữ liệu render.
+- Khi thêm ảnh mới phải ưu tiên tên file ổn định, dễ đoán theo slug nội dung để tiện bảo trì.
+- Nếu chưa tải được ảnh về cục bộ hoặc chưa xác minh nguồn, giữ placeholder thay vì gắn nóng ảnh từ nguồn ngoài.
+
 ## Audience
 
 - Người dân Nga Sơn đang sống xa quê.
@@ -82,13 +88,14 @@ Dự án đã vượt qua giai đoạn scaffold. Phần xã và timeline hiện 
 
 ### 5. Danh nhân
 
-- Đã có khung trang danh sách và chi tiết.
-- Nội dung vẫn chủ yếu là dữ liệu seed.
+- Đã có trang danh sách tìm kiếm và trang chi tiết động.
+- Đã thay dữ liệu seed bằng các hồ sơ danh nhân gốc Nga Sơn có bài viết riêng.
+- Một số ảnh chân dung đã được tải về thư mục `assets/images/people/`; các hồ sơ chưa xác minh ảnh tiếp tục dùng placeholder.
 
 ### 6. Bài viết lịch sử
 
-- Đã có khung trang danh sách và chi tiết.
-- Nội dung vẫn chủ yếu là dữ liệu seed.
+- Đã có bài viết riêng cho từng danh nhân đang được đưa vào chuyên mục people.
+- Vẫn cần mở rộng thêm bài lịch sử ngoài nhóm hồ sơ nhân vật.
 
 ### 7. Thư viện ảnh
 
@@ -169,8 +176,9 @@ Dự án đã vượt qua giai đoạn scaffold. Phần xã và timeline hiện 
 
 ### people/posts/gallery
 
-- Vẫn phần lớn là dữ liệu seed.
-- Cấu trúc trang và renderer đã sẵn sàng nhưng nội dung thực còn thiếu.
+- `people.json` đã thay seed bằng hồ sơ danh nhân gốc Nga Sơn có liên kết chéo tới xã và bài viết riêng.
+- `posts.json` đã có các bài viết riêng tương ứng với các hồ sơ danh nhân.
+- `gallery.json` vẫn chủ yếu là dữ liệu placeholder hoặc seed.
 
 ## Features completed
 
@@ -208,16 +216,15 @@ Dự án đã vượt qua giai đoạn scaffold. Phần xã và timeline hiện 
 
 ### Nội dung dữ liệu
 
-1. Thay dữ liệu seed trong `data/people.json` bằng hồ sơ nhân vật thật.
-2. Thay dữ liệu seed trong `data/posts.json` bằng bài viết thật.
-3. Thay dữ liệu seed trong `data/gallery.json` bằng ảnh và caption có nguồn.
-4. Bổ sung nội dung sâu hơn cho từng xã trong `data/communes.json`.
+1. Thay dữ liệu seed trong `data/gallery.json` bằng ảnh và caption có nguồn.
+2. Bổ sung nội dung sâu hơn cho từng xã trong `data/communes.json`.
+3. Tìm thêm ảnh chân dung có thể xác minh nguồn cho các danh nhân còn đang dùng placeholder, rồi tải về thư mục `assets/images/people/`.
 
 ### Chất lượng dữ liệu và nghiên cứu
 
-5. Nâng độ chắc chắn nguồn của một số mốc 2019 đang mới ở mức nguồn tổng hợp.
-6. Tiếp tục chuẩn hóa liên kết chéo giữa xã, bài viết, nhân vật và ảnh.
-7. Bổ sung các slug hoặc từ khóa phụ nếu phát hiện cách gọi quen thuộc khác từ người dùng địa phương.
+4. Nâng độ chắc chắn nguồn của một số mốc 2019 đang mới ở mức nguồn tổng hợp.
+5. Tiếp tục chuẩn hóa liên kết chéo giữa xã, bài viết, nhân vật và ảnh.
+6. Bổ sung các slug hoặc từ khóa phụ nếu phát hiện cách gọi quen thuộc khác từ người dùng địa phương.
 
 ### UX / product
 
