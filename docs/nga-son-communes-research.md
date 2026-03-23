@@ -34,12 +34,80 @@ Ghi chú:
 
 ## Bổ sung tra cứu về giai đoạn trước 1966
 
-Trong lần tra cứu bổ sung, bài về xã Nga Tiến trên Wikipedia tiếng Việt cho biết:
+Trong lần tra cứu bổ sung, có thể xác nhận thêm một số lớp thông tin lịch sử đi trước mốc 1966. Các mốc dưới đây không phải tất cả đều là thay đổi cấp xã, nhưng đủ chắc để mở rộng timeline của site theo hướng “lịch sử địa danh và hành chính”.
+
+### 1. Tiền thân tên gọi hành chính của Nga Sơn
+
+Theo phần lịch sử của bài Nga Sơn (huyện) trên Wikipedia tiếng Việt:
+
+- Đến thời Trần - Hồ bắt đầu lập huyện Chi Nga thuộc châu Ái.
+- Sang thời Hậu Lê, Chi Nga được đổi thành Nga Sơn.
+
+Ý nghĩa khi đưa vào site:
+
+1. Đây là mốc sớm nhất trong lần tra cứu hiện tại cho thấy tên gọi hành chính của vùng đất trước khi bước vào các lần chia tách hiện đại.
+2. Mốc này phù hợp để mở đầu timeline, nhưng nên gắn nhãn “đối chiếu qua nguồn tổng hợp” thay vì xem như văn bản hành chính cấp một đã trích nguyên văn.
+
+### 2. Khởi nghĩa Ba Đình gắn trực tiếp với Nga Sơn
+
+Theo bài Khởi nghĩa Ba Đình trên Wikipedia tiếng Việt:
+
+- Tháng 3 năm 1886, các lãnh tụ Cần Vương ở Thanh Hóa quyết định xây dựng căn cứ Ba Đình ở vùng đồng bằng phía bắc huyện Nga Sơn.
+- Từ 18/12/1886 đến 20/01/1887, quân Pháp tổ chức cuộc công hãm lớn vào căn cứ Ba Đình.
+- Đến sáng 21/01/1887, quân Pháp mới chiếm được Ba Đình sau nhiều ngày giao tranh ác liệt.
+
+Ý nghĩa khi đưa vào site:
+
+1. Đây là mốc lịch sử nổi bật nhất của Nga Sơn trước năm 1966 có liên hệ trực tiếp với một địa danh hiện vẫn còn trong bộ xã là Ba Đình.
+2. Mốc này không phải biến động sáp nhập, nhưng là cột mốc lịch sử địa phương rất mạnh, đủ hợp lý để đặt trong timeline chung.
+
+### 3. Sau Cách mạng tháng Tám năm 1945
+
+Theo bài Nga Sơn (huyện) trên Wikipedia tiếng Việt:
+
+- Sau Cách mạng tháng Tám năm 1945, vẫn giữ nguyên là huyện Nga Sơn.
+
+Ý nghĩa khi đưa vào site:
+
+1. Đây là mốc nối quan trọng giữa lớp lịch sử cận đại và chuỗi quyết định hành chính từ 1966 trở đi.
+2. Tuy không cho biết chi tiết danh sách xã ngay lúc đó, mốc này vẫn có giá trị vì xác nhận tư cách đơn vị cấp huyện của Nga Sơn chưa thay đổi vào thời điểm 1945.
+
+### 4. Nguồn bổ sung cho các địa danh Nga Phú và Nga Thiện
+
+Tra cứu bổ sung cho hai xã có lớp lịch sử sớm hơn cho thấy:
+
+#### Nga Phú
+
+Theo bài Mai An Tiêm và phần di tích của bài Nga Sơn (huyện):
+
+- Vùng Nga Sơn được xem là nơi Mai An Tiêm bị đày tới theo truyền thuyết.
+- Hiện nay tại xã Nga Phú có núi Mai An Tiêm và đền thờ dưới chân núi.
+
+Đánh giá:
+
+1. Đây là lớp truyền thuyết địa phương, không phải mốc hành chính có niên đại tuyệt đối.
+2. Tuy vậy nó đủ mạnh để gắn vào hồ sơ Nga Phú như một lớp ký ức lịch sử - văn hóa trước 1966.
+
+#### Nga Thiện
+
+Theo bài Lê Thị Hoa và phần di tích của bài Nga Sơn (huyện):
+
+- Lê Thị Hoa được mô tả là nữ tướng của Hai Bà Trưng, khởi nghĩa tại vùng Nga Sơn.
+- Sau khi mất, nhân dân lập đền thờ bà tại xã Nga Thiện.
+
+Đánh giá:
+
+1. Đây là nguồn tổng hợp lịch sử địa phương, phù hợp để dùng cho phần giới thiệu chiều sâu lịch sử của Nga Thiện.
+2. Nếu sau này tìm được thần tích, địa chí hoặc hồ sơ di tích, nên dùng để tăng độ chắc chắn cho mốc này.
+
+### 5. Điểm vẫn cần thận trọng
+
+Trong lần tra cứu trước, bài về xã Nga Tiến trên Wikipedia tiếng Việt cho biết:
 
 - Nga Tiến được thành lập năm 1966.
 - Bài này mô tả xã hình thành từ một số phần lãnh thổ của Tân An, Tân Giáp, Tân Thành.
 
-Điểm cần thận trọng:
+Tuy nhiên cần giữ thận trọng:
 
 - Quyết định 73-NV gốc lại ghi 4 hợp tác xã nông nghiệp là Tân Hải, Tân An, Tân Giáp, Tân Thành cấu thành xã Nga Tiến.
 - Vì vậy chưa nên kết luận Tân An, Tân Giáp, Tân Thành là tên xã cấp hành chính nếu chưa có thêm văn bản cấp một khác xác nhận.
@@ -49,6 +117,13 @@ Tạm thời có thể rút ra nhận định an toàn hơn:
 1. Nga Tiến và Nga Tân chắc chắn là hai xã mới xuất hiện từ năm 1966.
 2. Danh sách 26 xã của mốc 1982 nhiều khả năng phản ánh cấu trúc đã ổn định sau khi có thêm hai xã này.
 3. Trước năm 1966, rất có thể huyện Nga Sơn chưa có hai xã Nga Tiến và Nga Tân, nhưng kết luận đó vẫn nên gắn nhãn là suy luận hợp lý thay vì xác minh tuyệt đối.
+
+## Ghi chú về nguồn bổ sung đã dùng trong đợt cập nhật này
+
+1. Bài Nga Sơn (huyện) trên Wikipedia tiếng Việt: dùng để lấy trục lịch sử tổng quát, mốc Chi Nga -> Nga Sơn và mốc sau Cách mạng tháng Tám 1945.
+2. Bài Khởi nghĩa Ba Đình trên Wikipedia tiếng Việt: dùng để lấy bối cảnh, địa điểm và diễn biến chính 1886-1887. Bài hiện có cảnh báo cần hoàn thiện chú thích, nên phù hợp mức “đã đối chiếu nhiều nguồn công khai” hơn là “xác minh văn bản cấp một”.
+3. Bài Mai An Tiêm trên Wikipedia tiếng Việt: dùng để xác nhận cách truyền thuyết này hiện được gắn với Nga Sơn và cụm di tích ở Nga Phú.
+4. Bài Lê Thị Hoa trên Wikipedia tiếng Việt: dùng để xác nhận mối liên hệ giữa cuộc khởi nghĩa vùng Nga Sơn và đền thờ tại Nga Thiện.
 
 ## Mốc 2: Sau khi tái lập huyện Nga Sơn ngày 30/08/1982
 

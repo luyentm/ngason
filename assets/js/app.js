@@ -620,25 +620,69 @@
 
   async function loadPeople() {
     const people = await dataApi.getPeople();
-    setHtml("[data-people-list]", people.map((item) => renderers.renderPersonCard(item, dataApi.getBasePath())).join(""));
+    const input = document.querySelector("[data-people-search-input]");
+    const meta = document.querySelector("[data-people-search-meta]");
+
+    function renderPeopleResults(query) {
+      const needle = normalize(query);
+      const matches = people.filter((item) => {
+        const haystack = [
+          item.name,
+          item.role,
+          item.lifeSpan,
+          item.hometown,
+          item.summary,
+          ...(item.relatedCommunes || []),
+          ...(item.tags || [])
+        ].join(" ");
+
+        return !needle || normalize(haystack).includes(needle);
+      });
+
+      setHtml("[data-people-list]", matches.length
+        ? matches.map((item) => renderers.renderPersonCard(item, dataApi.getBasePath())).join("")
+        : renderers.renderEmptyState("Không tìm thấy danh nhân gốc Nga Sơn khớp với từ khóa đang nhập."));
+
+      if (meta) {
+        meta.textContent = needle
+          ? `Tìm thấy ${matches.length} danh nhân khớp với từ khóa.`
+          : `Đang hiển thị ${people.length} hồ sơ danh nhân gốc Nga Sơn.`;
+      }
+    }
+
+    renderPeopleResults("");
+
+    if (input) {
+      input.addEventListener("input", (event) => renderPeopleResults(event.target.value));
+    }
   }
 
   async function loadPerson() {
-    const people = await dataApi.getPeople();
+    const [people, posts] = await Promise.all([
+      dataApi.getPeople(),
+      dataApi.getPosts()
+    ]);
     const current = dataApi.findBySlug(people, dataApi.getSlug()) || people[0];
 
     if (!current) {
       return;
     }
 
+    const relatedPosts = posts.filter((item) => (current.relatedPosts || []).includes(item.slug));
+
     setHtml("[data-person-hero]", renderers.renderDetailHero(current, "person", dataApi.getBasePath()));
     setHtml("[data-person-body]", renderers.renderRichSections(current.sections));
     setHtml("[data-person-aside]", renderers.renderKeyValueList([
       { label: "Vai trò", value: current.role },
+      { label: "Giai đoạn", value: current.lifeSpan },
+      { label: "Quê gốc", value: current.hometown },
       { label: "Tình trạng tư liệu", value: current.sourceStatus },
       { label: "Địa danh liên hệ", value: current.relatedCommunes },
       { label: "Thẻ chủ đề", value: current.tags }
     ]));
+    setHtml("[data-person-posts]", relatedPosts.length
+      ? relatedPosts.map((item) => renderers.renderPostCard(item, dataApi.getBasePath())).join("")
+      : renderers.renderEmptyState("Hồ sơ này chưa có bài viết riêng được liên kết."));
   }
 
   async function loadPosts() {

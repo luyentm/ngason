@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Danh sách danh nhân và nhân vật gắn với kho tư liệu Nga Sơn.">
+  <meta name="description" content="Danh sách danh nhân gốc Nga Sơn và bài viết riêng cho từng người trong kho tư liệu số.">
   <title>Danh nhân | ngason.com</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,11 +22,23 @@
       <section class="page-hero reveal">
         <div class="container narrow">
           <p class="eyebrow">Con người và ký ức</p>
-          <h1>Danh nhân và nhân vật tiêu biểu</h1>
-          <p class="section-intro">Mỗi hồ sơ nhân vật sẽ được nối ngược về địa danh, bài viết và ảnh tư liệu để tạo thành một mạng lưới ký ức thay vì các mục lẻ rời rạc.</p>
+          <h1>Danh nhân gốc Nga Sơn</h1>
+          <p class="section-intro">Trang này gom các gương mặt có quê gốc hoặc xuất thân rõ từ Nga Sơn. Mỗi danh nhân có một hồ sơ riêng và một bài viết riêng để tiện tra cứu theo tên người, xã quê và lĩnh vực hoạt động.</p>
         </div>
       </section>
       <section class="section reveal">
+        <div class="container search-panel compact-panel">
+          <div class="search-head">
+            <div>
+              <p class="eyebrow">Tra cứu danh nhân</p>
+              <h2>Tìm theo tên, quê xã hoặc lĩnh vực</h2>
+            </div>
+          </div>
+          <div class="search-bar">
+            <input type="search" placeholder="Ví dụ: Hữu Loan, Nga Điền, Thám hoa, Quốc hội..." data-people-search-input>
+          </div>
+          <div class="search-meta" data-people-search-meta></div>
+        </div>
         <div class="container card-grid" data-people-list></div>
       </section>
     </main>

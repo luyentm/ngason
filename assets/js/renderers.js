@@ -92,6 +92,10 @@
   }
 
   function renderPersonCard(item, basePath) {
+    const relatedArticle = item.relatedPosts?.[0]
+      ? `<a class="text-link" href="${escapeHtml(basePath)}/pages/post.html?slug=${escapeHtml(item.relatedPosts[0])}">Đọc bài riêng</a>`
+      : "";
+
     return `
       <article class="card reveal is-visible">
         <img class="card-media" src="${escapeHtml(basePath)}/${escapeHtml(item.featuredImage)}" alt="${escapeHtml(item.name)}">
@@ -100,8 +104,12 @@
           ${renderBadge(item.role, "badge-neutral")}
         </div>
         <h3>${escapeHtml(item.name)}</h3>
+        ${item.hometown ? `<p class="card-location">Quê gốc: ${escapeHtml(item.hometown)}</p>` : ""}
         <p>${escapeHtml(item.summary)}</p>
-        <a class="text-link" href="${escapeHtml(basePath)}/pages/person.html?slug=${escapeHtml(item.slug)}">Mở hồ sơ nhân vật</a>
+        <div class="card-actions">
+          <a class="text-link" href="${escapeHtml(basePath)}/pages/person.html?slug=${escapeHtml(item.slug)}">Mở hồ sơ nhân vật</a>
+          ${relatedArticle}
+        </div>
       </article>
     `;
   }

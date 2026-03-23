@@ -1,85 +1,261 @@
 [
   {
-    "id": "post-seed-01",
-    "slug": "khoi-tao-kho-tu-lieu-nga-son",
-    "title": "Khởi tạo kho tư liệu số cho ký ức Nga Sơn",
-    "category": "Định hướng dự án",
-    "summary": "Bài seed đầu tiên giải thích cách website được dựng để lưu trữ xã cũ, mốc sáp nhập, danh nhân và ảnh tư liệu theo cấu trúc bền vững.",
-    "statusLabel": "Đã soạn khung",
-    "sourceStatus": "Nội dung nội bộ, không cần kiểm chứng lịch sử",
-    "featuredImage": "assets/images/hero-archival.svg",
+    "id": "post-person-01",
+    "slug": "nguyen-tien-hung-tu-nga-dien-den-hoc-gia-kinh-te",
+    "title": "Nguyễn Tiến Hưng: từ Nga Điền đến học giả kinh tế",
+    "category": "Chân dung danh nhân",
+    "summary": "Bài chân dung tóm lược xuất thân Nga Điền, con đường học tập ở Hoa Kỳ và dấu ấn kinh tế - học thuật của Nguyễn Tiến Hưng.",
+    "statusLabel": "Đã biên tập nền",
+    "sourceStatus": "Tổng hợp theo Wikipedia tiếng Việt và các nguồn công khai dẫn trên trang; chưa thay thế nghiên cứu học thuật chuyên sâu.",
+    "featuredImage": "assets/images/portrait-placeholder.svg",
     "relatedCommunes": [
-      "Hồ sơ xã cũ đang biên tập 01"
+      "Nga Điền"
     ],
     "relatedPeople": [
-      "Nhân vật đang biên tập 01"
+      "Nguyễn Tiến Hưng"
     ],
     "sections": [
       {
-        "title": "Vì sao bắt đầu từ cấu trúc",
+        "title": "Một điểm gốc từ Nga Điền",
         "paragraphs": [
-          "Khi xây một website địa phương có vòng đời dài, rủi ro lớn nhất không phải là giao diện ban đầu, mà là việc nội dung tăng lên nhanh hơn cấu trúc có thể chịu đựng. Vì vậy bản triển khai đầu tiên của ngason.com được dựng từ schema dữ liệu, điều hướng và liên kết chéo.",
-          "Cách làm này cho phép thêm dần từng xã, từng ảnh và từng bài mà không phải nhân bản thủ công hàng chục trang HTML khác nhau."
+          "Trong danh sách nhân vật nổi bật gắn với Nga Sơn, Nguyễn Tiến Hưng là một trường hợp tiêu biểu của lớp trí thức hiện đại. Nguồn tổng hợp hiện có cho biết gia đình ông có gốc ở xã Nga Điền, một xã ven biển của vùng Nga Sơn cũ.",
+          "Chi tiết quê gốc này đủ quan trọng để website tách riêng một bài viết, vì nó nối danh mục danh nhân với các hồ sơ xã thay vì chỉ nêu tên rời rạc trong một danh sách chung."
         ]
       },
       {
-        "title": "Ba nhóm việc quan trọng ngay sau scaffold",
+        "title": "Con đường kinh tế và quản trị",
         "paragraphs": [
-          "Thứ nhất là nhập danh sách xã cũ đã được xác minh. Thứ hai là dựng timeline các mốc hành chính lớn. Thứ ba là chuẩn hóa nguồn cho ảnh và bài viết.",
-          "Khi ba trục này đã có dữ liệu nền, website có thể bước sang giai đoạn biên tập nội dung thực tế với tốc độ nhanh hơn nhiều."
-        ],
-        "list": [
-          "Nhập tên xã, slug và mô tả ngắn.",
-          "Gắn từng mốc vào timeline chung.",
-          "Liên kết xã với bài viết và ảnh."
+          "Sau khi sang Hoa Kỳ học tập, Nguyễn Tiến Hưng theo đuổi ngành kinh tế và hoàn thành bậc tiến sĩ vào năm 1965. Ông từng làm chuyên gia của Quỹ Tiền tệ Quốc tế trước khi trở về đảm nhận các vị trí kinh tế quan trọng trong chính quyền Việt Nam Cộng hòa.",
+          "Ở giai đoạn sau, ông tiếp tục làm việc với Ngân hàng Thế giới, tham gia các dự án phát triển và giảng dạy đại học. Điều này khiến hồ sơ của ông vừa có giá trị trong lịch sử chính trị, vừa có giá trị trong lịch sử học thuật."
+        ]
+      },
+      {
+        "title": "Vì sao bài này nên tồn tại riêng",
+        "paragraphs": [
+          "Nếu phần danh nhân chỉ dừng lại ở tên gọi và chức danh, người đọc sẽ khó hiểu vì sao một nhân vật như Nguyễn Tiến Hưng lại có vị trí trong ký ức địa phương. Bài riêng giúp làm rõ mối nối đó từ Nga Điền sang con đường nghề nghiệp quốc tế của ông.",
+          "Bản hiện tại mới là lớp biên tập nền. Ở pha sau, có thể bổ sung ảnh, trích tác phẩm, mốc thời gian học tập và những tư liệu về ký ức gia đình gốc Nga Điền nếu sưu tầm được."
         ]
       }
     ]
   },
   {
-    "id": "post-seed-02",
-    "slug": "khung-kiem-chung-tu-lieu",
-    "title": "Khung kiểm chứng tư liệu trước khi xuất bản",
-    "category": "Biên tập tư liệu",
-    "summary": "Một bài seed định nghĩa cách site nên xử lý dữ liệu chưa chắc chắn: luôn gắn nhãn trạng thái thay vì điền đoán thông tin lịch sử.",
-    "statusLabel": "Đang biên tập",
-    "sourceStatus": "Cần hoàn thiện checklist nguồn",
+    "id": "post-person-02",
+    "slug": "mai-anh-tuan-tham-hoa-que-nga-thach",
+    "title": "Mai Anh Tuấn: Thám hoa quê Nga Thạch",
+    "category": "Chân dung danh nhân",
+    "summary": "Bài viết riêng về vị Đình nguyên Thám hoa có quê gốc ở Thạch Giản, Nga Thạch và dấu ấn của ông trong truyền thống khoa bảng Nga Sơn.",
+    "statusLabel": "Đã biên tập nền",
+    "sourceStatus": "Tổng hợp theo Wikipedia tiếng Việt và các nguồn công khai dẫn trên trang; cần thêm văn bia, gia phả hoặc địa chí để kiểm chứng sâu hơn.",
+    "featuredImage": "assets/images/portrait-placeholder.svg",
+    "relatedCommunes": [
+      "Nga Thạch"
+    ],
+    "relatedPeople": [
+      "Mai Anh Tuấn"
+    ],
+    "sections": [
+      {
+        "title": "Quê gốc ở Thạch Giản",
+        "paragraphs": [
+          "Mai Anh Tuấn là trường hợp rất phù hợp để đưa vào chuyên mục danh nhân gốc Nga Sơn vì nguồn công khai nêu khá rõ quê quán của ông ở Thạch Giản, Nga Thạch, Nga Sơn, Thanh Hóa. Dù nơi sinh là Hoàng Cầu ở Hà Nội, trục quê gốc vẫn nằm ở Nga Sơn.",
+          "Điểm này giúp bài viết không chỉ kể tiểu sử một vị quan triều Nguyễn, mà còn kéo người đọc trở lại không gian địa phương nơi dòng họ và ký ức khoa bảng của ông được neo giữ."
+        ]
+      },
+      {
+        "title": "Đỗ đầu và làm quan",
+        "paragraphs": [
+          "Năm 1843, Mai Anh Tuấn đỗ Đình nguyên Thám hoa. Sau khoa thi đó, ông được bổ làm Hàn lâm Thị độc và tiếp tục hoạt động trong triều đình nhà Nguyễn.",
+          "Nguồn tổng hợp còn cho biết ông từng dâng sớ can việc dùng thuyền công để tiễn viên quan nhà Thanh, sau bị điều làm án sát Lạng Sơn. Năm 1851, ông tử trận khi chống thổ phỉ xâm nhập biên giới."
+        ]
+      },
+      {
+        "title": "Dấu vết còn lại ở Nga Sơn",
+        "paragraphs": [
+          "Tên tuổi Mai Anh Tuấn vẫn còn hiện diện trong đời sống đương đại của Nga Sơn qua tên trường THPT Mai Anh Tuấn. Vì thế, ông không chỉ là một nhân vật của quá khứ xa mà còn là một điểm nhớ đang tiếp tục tồn tại trong giáo dục địa phương.",
+          "Một bài viết riêng như thế này tạo nền để sau này nối thêm tư liệu về trường học, sắc phong, đền thờ hoặc dòng họ liên quan."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "post-person-03",
+    "slug": "huu-loan-va-mau-tim-hoa-sim-tu-nga-linh",
+    "title": "Hữu Loan và Màu tím hoa sim từ Nga Lĩnh",
+    "category": "Chân dung danh nhân",
+    "summary": "Bài viết riêng về Hữu Loan, người con làng Vân Hoàn, Nga Lĩnh, và vị trí của ông trong thơ Việt Nam thế kỷ 20.",
+    "statusLabel": "Đã biên tập nền",
+    "sourceStatus": "Tổng hợp theo Wikipedia tiếng Việt và các nguồn báo chí công khai được dẫn trên trang; có thể mở rộng thêm bằng hồi ký và tư liệu gia đình.",
+    "featuredImage": "assets/images/portrait-placeholder.svg",
+    "relatedCommunes": [
+      "Nga Lĩnh"
+    ],
+    "relatedPeople": [
+      "Hữu Loan"
+    ],
+    "sections": [
+      {
+        "title": "Một nhà thơ từ làng Vân Hoàn",
+        "paragraphs": [
+          "Hữu Loan là một trong những tên tuổi nổi bật nhất có thể xác định rất rõ gốc gác Nga Sơn. Nguồn tổng hợp cho biết ông sinh tại làng Vân Hoàn, xã Nga Lĩnh, huyện Nga Sơn, tỉnh Thanh Hóa.",
+          "Thông tin này rất có giá trị đối với website vì nó cho phép gắn một tên tuổi lớn của thơ Việt Nam vào hồ sơ một xã cũ cụ thể, thay vì giữ ông như một tên riêng tách khỏi địa phương."
+        ]
+      },
+      {
+        "title": "Từ kháng chiến tới thi ca",
+        "paragraphs": [
+          "Hữu Loan từng tham gia Việt Minh, hoạt động trong bộ máy cách mạng ở Thanh Hóa, sau đó phục vụ trong quân đội thời kháng chiến chống Pháp. Những trải nghiệm này là nền cho nhiều tác phẩm mang sắc thái riêng của ông.",
+          "Tên tuổi Hữu Loan được nhắc nhiều nhất qua Màu tím hoa sim, bài thơ đã vượt khỏi phạm vi văn bản để trở thành một biểu tượng cảm xúc trong văn học và âm nhạc Việt Nam hiện đại."
+        ]
+      },
+      {
+        "title": "Hữu Loan trong kho tư liệu Nga Sơn",
+        "paragraphs": [
+          "Một chuyên mục danh nhân của Nga Sơn sẽ thiếu chiều sâu nếu không có Hữu Loan. Ông đại diện cho lớp văn chương hiện đại, khác hẳn các lớp nhân vật khoa bảng, chính trị hay hành chính trong cùng danh sách.",
+          "Ở bước sau, bài này có thể mở rộng theo hướng trưng bày bản in, trích đoạn thơ, ký ức làng Vân Hoàn và mối liên hệ giữa Hữu Loan với không gian văn hóa Thanh Hóa."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "post-person-04",
+    "slug": "truong-giang-long-tu-nga-son-den-hoc-vien-chinh-tri-cand",
+    "title": "Trương Giang Long: từ Nga Sơn đến Học viện Chính trị CAND",
+    "category": "Chân dung danh nhân",
+    "summary": "Bài riêng về Trương Giang Long, người sinh tại Nga Sơn, sau này trở thành Thiếu tướng, giáo sư, tiến sĩ và Nhà giáo Nhân dân.",
+    "statusLabel": "Đã biên tập nền",
+    "sourceStatus": "Tổng hợp theo Wikipedia tiếng Việt và các nguồn công khai dẫn trên trang; địa chỉ xã gốc cụ thể chưa xác định rõ trong lần tra cứu này.",
+    "featuredImage": "assets/images/portrait-placeholder.svg",
+    "relatedCommunes": [
+      "Nga Sơn"
+    ],
+    "relatedPeople": [
+      "Trương Giang Long"
+    ],
+    "sections": [
+      {
+        "title": "Một nhân vật đương đại của Nga Sơn",
+        "paragraphs": [
+          "Khác với các danh nhân lịch sử hoặc văn chương, Trương Giang Long đại diện cho lớp nhân vật đương đại trưởng thành trong hệ thống giáo dục, lý luận và đào tạo chuyên ngành. Bài viết công khai hiện có ghi ông sinh năm 1955 tại Nga Sơn, Thanh Hóa.",
+          "Điểm này đủ để ông có một bài chân dung riêng trong danh mục những người gốc Nga Sơn, dù hồ sơ địa phương cấp xã vẫn còn cần làm rõ thêm."
+        ]
+      },
+      {
+        "title": "Dấu ấn trong công tác đào tạo",
+        "paragraphs": [
+          "Theo nguồn tổng hợp, Trương Giang Long từng công tác trong môi trường lý luận và báo chí trước khi chuyển sang Bộ Công an. Ông giữ chức Phó Tổng cục trưởng Tổng cục Chính trị Công an nhân dân và kiêm Giám đốc Học viện Chính trị Công an nhân dân.",
+          "Hồ sơ công khai còn cho biết ông được phong hàm Thiếu tướng và danh hiệu Nhà giáo Nhân dân. Vì vậy bài viết này nên được đọc như một chân dung nghề nghiệp hơn là một bài ca ngợi đơn tuyến."
+        ]
+      },
+      {
+        "title": "Hướng biên tập tiếp theo",
+        "paragraphs": [
+          "Bản hiện tại giúp trang danh nhân của site bớt lệch về các nhân vật quá khứ và bổ sung thêm một gương mặt đương đại có dấu ấn về giáo dục và quản lý chuyên ngành.",
+          "Nếu muốn nâng chất lượng, bước tiếp theo nên là đối chiếu thêm hồ sơ công tác công khai để chốt rõ xã gốc, các mốc chức vụ và ảnh tư liệu dùng được."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "post-person-05",
+    "slug": "mai-sy-dien-tu-nga-hai-den-nghi-truong",
+    "title": "Mai Sỹ Diến: từ Nga Hải đến nghị trường",
+    "category": "Chân dung danh nhân",
+    "summary": "Bài viết riêng về Mai Sỹ Diến, người gốc Nga Hải, với lộ trình từ cán bộ địa phương tới đại biểu Quốc hội của Thanh Hóa.",
+    "statusLabel": "Đã biên tập nền",
+    "sourceStatus": "Tổng hợp theo Wikipedia tiếng Việt và các nguồn công khai dẫn trên trang; nên bổ sung thêm hồ sơ chính thức của Quốc hội và tỉnh Thanh Hóa nếu mở rộng.",
+    "featuredImage": "assets/images/portrait-placeholder.svg",
+    "relatedCommunes": [
+      "Nga Hải"
+    ],
+    "relatedPeople": [
+      "Mai Sỹ Diến"
+    ],
+    "sections": [
+      {
+        "title": "Xuất thân từ xã Nga Hải",
+        "paragraphs": [
+          "Mai Sỹ Diến sinh năm 1963 và có quê quán ở xã Nga Hải, huyện Nga Sơn, Thanh Hóa theo thông tin công khai hiện tra được. Đây là một trường hợp dễ gắn trở lại hồ sơ xã cũ trong cấu trúc của website.",
+          "So với những nhân vật lịch sử xa hoặc truyền thuyết, hồ sơ kiểu này giúp chuyên mục danh nhân gần hơn với lớp ký ức đương đại của người đọc địa phương."
+        ]
+      },
+      {
+        "title": "Từ địa phương tới cơ quan dân cử",
+        "paragraphs": [
+          "Nguồn tổng hợp cho biết Mai Sỹ Diến có nền đào tạo nông nghiệp, từng tham gia hội đồng nhân dân huyện Nga Sơn và sau đó trúng cử đại biểu Quốc hội khóa XIV của tỉnh Thanh Hóa năm 2016.",
+          "Ông cũng xuất hiện trong các vị trí quản lý và thanh tra của tỉnh. Vì vậy bài viết này phù hợp với hướng đọc như một hồ sơ nhân vật công vụ có gốc từ một xã cụ thể của Nga Sơn."
+        ]
+      },
+      {
+        "title": "Vì sao nên đưa vào kho tư liệu",
+        "paragraphs": [
+          "Một kho tư liệu địa phương nếu chỉ ghi lại nhân vật cổ hoặc huyền thoại sẽ thiếu mất lớp người đương đại đã đi ra từ các xã cụ thể. Mai Sỹ Diến là ví dụ cho lớp hồ sơ đó.",
+          "Về sau, bài này có thể bổ sung thêm mốc công tác, tài liệu bầu cử và ảnh tư liệu địa phương để tăng độ chính xác và độ dày thông tin."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "post-history-01",
+    "slug": "lich-su-nga-son-truoc-1966",
+    "title": "Lịch sử Nga Sơn trước năm 1966: từ Chi Nga đến Ba Đình, Nga Phú và Nga Thiện",
+    "category": "Lịch sử địa phương",
+    "summary": "Bài tổng hợp này gom các lớp lịch sử sớm của Nga Sơn trước mốc thành lập Nga Tiến và Nga Tân năm 1966, đồng thời chỉ rõ phần nào là lịch sử hành chính, phần nào là truyền thuyết hoặc nguồn tổng hợp địa phương.",
+    "statusLabel": "Đã bổ sung nguồn công khai",
+    "sourceStatus": "Tổng hợp từ bài Nga Sơn, Khởi nghĩa Ba Đình, Mai An Tiêm và Lê Thị Hoa trên nguồn công khai; không thay thế văn bản hành chính cấp một",
     "featuredImage": "assets/images/hero-archival.svg",
     "relatedCommunes": [
-      "Hồ sơ xã cũ đang biên tập 02"
+      "Ba Đình",
+      "Nga Phú",
+      "Nga Thiện"
     ],
     "relatedPeople": [],
     "sections": [
       {
-        "title": "Không lấp chỗ trống bằng suy đoán",
+        "title": "Khung đọc cho giai đoạn trước 1966",
         "paragraphs": [
-          "Một website lưu trữ địa danh cũ dễ mất uy tín nếu dùng dữ liệu chưa xác minh mà trình bày như sự thật. Vì vậy bản triển khai này dùng các nhãn như chờ kiểm chứng, đang bổ sung hoặc seed dữ liệu để nói rõ mức độ hoàn thiện.",
-          "Cách làm này giữ cho kho tư liệu trung thực ngay cả khi nội dung vẫn đang trong quá trình sưu tầm."
+          "Trước năm 1966, lịch sử Nga Sơn hiện lên qua nhiều lớp khác nhau: lớp tên gọi hành chính, lớp khởi nghĩa chống ngoại xâm, lớp di tích và cả lớp truyền thuyết gắn với địa phương. Vì vậy bài này không cố ép toàn bộ tư liệu vào cùng một mức độ chắc chắn, mà tách rõ từng loại nguồn.",
+          "Các mốc hành chính hiện đại của website vẫn xoay quanh văn bản như Quyết định 73-NV năm 1966. Riêng giai đoạn sớm hơn, nội dung ở đây dựa trên nguồn tổng hợp công khai đã đối chiếu, dùng để định vị ký ức địa phương chứ không thay cho địa chí hoặc hồ sơ hành chính gốc."
         ]
-      }
-    ]
-  },
-  {
-    "id": "post-seed-03",
-    "slug": "dong-gop-anh-va-ky-uc",
-    "title": "Đóng góp ảnh cũ và ký ức gia đình vào kho tư liệu",
-    "category": "Kêu gọi đóng góp",
-    "summary": "Bài seed thứ ba mở đường cho chuyên mục huy động ảnh cũ, chuyện cũ và chú thích từ cộng đồng người Nga Sơn ở xa quê.",
-    "statusLabel": "Ý tưởng nội dung",
-    "sourceStatus": "Cần quyết định kênh liên hệ chính thức",
-    "featuredImage": "assets/images/hero-archival.svg",
-    "relatedCommunes": [
-      "Hồ sơ xã cũ đang biên tập 03"
-    ],
-    "relatedPeople": [
-      "Nhân vật đang biên tập 02"
-    ],
-    "sections": [
+      },
       {
-        "title": "Lý do nên có kênh đóng góp",
+        "title": "Từ Chi Nga đến tên gọi Nga Sơn",
         "paragraphs": [
-          "Nhiều ảnh và câu chuyện giá trị thường nằm trong album gia đình hoặc trí nhớ cá nhân, không xuất hiện trong tài liệu hành chính. Một kho tư liệu địa phương muốn sống lâu cần có đường cho cộng đồng mang tư liệu tới.",
-          "Ở pha sau, site có thể mở thêm biểu mẫu hoặc địa chỉ liên hệ rõ ràng để nhận ảnh, chú thích và thông tin bổ sung."
+          "Theo phần lịch sử của bài Nga Sơn, đến thời Trần - Hồ vùng này bắt đầu được lập thành huyện Chi Nga thuộc châu Ái. Sang thời Hậu Lê, Chi Nga được đổi thành Nga Sơn, tạo nên lớp tên gọi hành chính tồn tại rất dài trước các lần chia tách ở thế kỷ 20.",
+          "Đây là mốc quan trọng vì nó cho thấy cái tên Nga Sơn không chỉ là sản phẩm của giai đoạn hành chính hiện đại, mà có chiều sâu lịch sử lâu hơn nhiều so với các mốc dữ liệu xã hiện có trên site."
+        ]
+      },
+      {
+        "title": "Ba Đình và dấu mốc 1886-1887",
+        "paragraphs": [
+          "Khởi nghĩa Ba Đình là mốc nổi bật nhất của Nga Sơn trong giai đoạn cận đại trước 1966. Theo nguồn tổng hợp đã đối chiếu, căn cứ Ba Đình được xây dựng ở vùng phía bắc huyện Nga Sơn, cuộc công hãm lớn diễn ra từ cuối năm 1886 đến tháng 1 năm 1887 và đã biến địa danh Ba Đình thành biểu tượng vượt ra ngoài phạm vi địa phương.",
+          "Tên Ba Đình sau đó tiếp tục được dùng cho vườn hoa, quảng trường và quận Ba Đình tại Hà Nội. Tuy nhiên, bài về khởi nghĩa hiện vẫn có cảnh báo cần hoàn thiện chú thích, nên phần này nên được hiểu là mốc lịch sử mạnh đã đối chiếu qua nhiều nguồn công khai, chưa phải bản trích từ một công trình địa chí hoàn chỉnh."
+        ]
+      },
+      {
+        "title": "Nga Phú và lớp truyền thuyết Mai An Tiêm",
+        "paragraphs": [
+          "Trong hệ thống di tích Nga Sơn, Nga Phú là địa danh gắn chặt với truyền thuyết Mai An Tiêm. Nguồn tổng hợp cho biết vùng Nga Sơn được xem là nơi Mai An Tiêm bị đày tới, gây dựng giống dưa hấu, còn hiện nay tại Nga Phú có núi Mai An Tiêm và đền thờ dưới chân núi.",
+          "Đây là lớp tư liệu thuộc truyền thuyết địa phương chứ không phải sự kiện hành chính có niên đại chính xác. Dù vậy, nó vẫn rất quan trọng cho hồ sơ xã vì giải thích vì sao Nga Phú luôn xuất hiện như một địa danh văn hóa chứ không chỉ là một đơn vị hành chính cũ."
+        ]
+      },
+      {
+        "title": "Nga Thiện và ký ức về Lê Thị Hoa",
+        "paragraphs": [
+          "Nguồn tổng hợp về Lê Thị Hoa cho biết bà là nữ tướng của Hai Bà Trưng, khởi nghĩa tại vùng Nga Sơn và sau khi mất được nhân dân lập đền thờ tại Nga Thiện. Điều này tạo cho Nga Thiện một lớp lịch sử rất sớm, nối trực tiếp với ký ức về cuộc khởi nghĩa chống Đông Hán giai đoạn năm 40-43.",
+          "Tương tự trường hợp Mai An Tiêm, phần này cần được trình bày với thái độ thận trọng: đây là lịch sử địa phương đã được lưu truyền và tổng hợp công khai, phù hợp để giới thiệu trong kho tư liệu số, nhưng vẫn nên tiếp tục đối chiếu thêm với thần tích, địa chí hoặc hồ sơ di tích nếu sau này tìm được."
+        ]
+      },
+      {
+        "title": "Mốc chuyển tiếp trước năm 1966",
+        "paragraphs": [
+          "Một mốc chắc hơn ở giai đoạn cận đại là sau Cách mạng tháng Tám năm 1945, huyện Nga Sơn vẫn được giữ nguyên theo phần lịch sử hành chính đã đối chiếu. Mốc này giúp nối lớp lịch sử sớm của địa phương với chuỗi thay đổi bằng văn bản từ năm 1966 trở đi.",
+          "Vì vậy, khi đọc timeline của site, có thể xem 1966 là điểm bắt đầu của lớp dữ liệu hành chính xác minh cao, còn những mốc trước đó là nền lịch sử rộng hơn giúp giải thích chiều sâu của các địa danh Nga Sơn cũ."
+        ],
+        "list": [
+          "Chi Nga rồi đổi thành Nga Sơn: lớp tên gọi hành chính sớm.",
+          "Ba Đình 1886-1887: lớp lịch sử kháng chiến cận đại.",
+          "Nga Phú - Mai An Tiêm và Nga Thiện - Lê Thị Hoa: lớp truyền thuyết, di tích và ký ức địa phương.",
+          "1945: điểm nối với hệ thống hành chính hiện đại trước mốc 1966."
         ]
       }
     ]

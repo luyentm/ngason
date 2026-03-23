@@ -1,5 +1,45 @@
 [
   {
+    "id": "timeline-chi-nga",
+    "period": "Thời Trần-Hồ đến Hậu Lê",
+    "title": "Hình thành tiền thân hành chính Chi Nga rồi đổi thành Nga Sơn",
+    "summary": "Nguồn tổng hợp lịch sử địa phương cho biết đến thời Trần-Hồ bắt đầu lập huyện Chi Nga thuộc châu Ái; sang thời Hậu Lê địa danh này đổi thành Nga Sơn. Đây là mốc sớm nhất trong lần tra cứu hiện tại cho thấy sự hình thành tên gọi hành chính của vùng đất.",
+    "statusLabel": "Đối chiếu qua nguồn tổng hợp",
+    "relatedCommunes": ["Nga Sơn"]
+  },
+  {
+    "id": "timeline-ba-dinh-uprising",
+    "period": "1886-1887",
+    "title": "Khởi nghĩa Ba Đình đưa Nga Sơn thành chiến khu lớn của phong trào Cần Vương",
+    "summary": "Căn cứ Ba Đình được xây dựng ở vùng phía bắc Nga Sơn và trở thành một trong những chiến tuyến phòng ngự tiêu biểu nhất của phong trào Cần Vương. Cuộc công hãm kéo dài từ cuối năm 1886 sang đầu năm 1887 khiến địa danh Ba Đình trở thành dấu mốc lịch sử vượt ra ngoài phạm vi địa phương.",
+    "statusLabel": "Đã đối chiếu nhiều nguồn",
+    "relatedCommunes": ["Ba Đình"]
+  },
+  {
+    "id": "timeline-mai-an-tiem",
+    "period": "Thời Hùng Vương (truyền thuyết)",
+    "title": "Truyền thuyết Mai An Tiêm gắn vùng Nga Sơn với địa danh Nga Phú ngày nay",
+    "summary": "Theo nguồn tổng hợp về di tích địa phương và truyền thuyết Mai An Tiêm, vùng Nga Sơn được xem là nơi nhân vật này bị đày tới và gây dựng giống dưa hấu. Hiện nay, cụm núi và đền thờ Mai An Tiêm nằm tại xã Nga Phú, tạo nên một lớp ký ức sớm của địa phương trước các mốc hành chính hiện đại.",
+    "statusLabel": "Truyền thuyết địa phương",
+    "relatedCommunes": ["Nga Phú"]
+  },
+  {
+    "id": "timeline-le-thi-hoa",
+    "period": "40-43",
+    "title": "Lê Thị Hoa khởi nghĩa ở vùng Nga Sơn và được thờ tại Nga Thiện",
+    "summary": "Nguồn tổng hợp cho biết Lê Thị Hoa là nữ tướng của Hai Bà Trưng, từng khởi nghĩa ở vùng Nga Sơn và sau được nhân dân lập đền thờ tại Nga Thiện. Mốc này giúp nối lịch sử rất sớm của địa phương với một địa danh hiện vẫn còn quen thuộc trong ký ức Nga Sơn cũ.",
+    "statusLabel": "Đối chiếu qua nguồn tổng hợp",
+    "relatedCommunes": ["Nga Thiện"]
+  },
+  {
+    "id": "timeline-1945",
+    "period": "08/1945",
+    "title": "Sau Cách mạng tháng Tám, địa giới huyện Nga Sơn vẫn được giữ nguyên",
+    "summary": "Theo phần lịch sử hành chính đã đối chiếu, sau Cách mạng tháng Tám năm 1945 khu vực này vẫn giữ nguyên là huyện Nga Sơn. Mốc này giúp nối liền lớp lịch sử cận đại với chuỗi thay đổi đơn vị hành chính từ năm 1966 trở đi.",
+    "statusLabel": "Đối chiếu qua nguồn tổng hợp",
+    "relatedCommunes": ["Nga Sơn"]
+  },
+  {
     "id": "timeline-1966",
     "period": "17/03/1966",
     "title": "Thành lập hai xã mới vùng khai hoang ven biển",

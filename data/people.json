@@ -1,59 +1,235 @@
 [
   {
-    "id": "person-seed-01",
-    "slug": "nhan-vat-dang-bien-tap-01",
-    "name": "Nhân vật đang biên tập 01",
-    "role": "Hồ sơ nhân vật seed",
-    "summary": "Mục này dùng để kiểm tra bố cục hồ sơ danh nhân và mối liên hệ giữa nhân vật với xã cũ, bài viết và ảnh tư liệu.",
-    "statusLabel": "Chờ kiểm chứng",
-    "sourceStatus": "Chưa nhập tiểu sử xác minh",
+    "id": "person-nguyen-tien-hung",
+    "slug": "nguyen-tien-hung",
+    "name": "Nguyễn Tiến Hưng",
+    "role": "Nhà kinh tế, học giả",
+    "lifeSpan": "1935 - nay",
+    "hometown": "Nga Điền",
+    "summary": "Nhà kinh tế sinh năm 1935, gốc Nga Điền, từng làm việc cho IMF, WB, giữ chức Tổng trưởng Kế hoạch và Phát triển của Việt Nam Cộng hòa, về sau giảng dạy đại học và viết nhiều hồi ký chính trị - kinh tế.",
+    "statusLabel": "Đã có bài riêng",
+    "sourceStatus": "Tổng hợp theo Wikipedia tiếng Việt và các nguồn công khai dẫn trên trang; cần bổ sung tư liệu địa phương nếu muốn viết sâu hơn.",
     "featuredImage": "assets/images/portrait-placeholder.svg",
     "relatedCommunes": [
-      "Hồ sơ xã cũ đang biên tập 01"
+      "Nga Điền"
+    ],
+    "relatedPosts": [
+      "nguyen-tien-hung-tu-nga-dien-den-hoc-gia-kinh-te"
     ],
     "tags": [
-      "nhân vật",
-      "dữ liệu seed"
+      "Nga Điền",
+      "kinh tế",
+      "Howard University",
+      "hồi ký"
     ],
     "sections": [
       {
-        "title": "Vai trò của hồ sơ nhân vật",
+        "title": "Quê gốc và hành trình học tập",
         "paragraphs": [
-          "Mỗi hồ sơ nhân vật nên cho thấy nhân vật gắn với địa danh nào, đóng vai trò gì và còn tư liệu gì có thể dẫn tiếp sang các bài viết hoặc ảnh.",
-          "Ở bản scaffold này, nội dung đang là mẫu để kiểm tra trải nghiệm và schema dữ liệu chứ chưa phải hồ sơ lịch sử hoàn chỉnh."
+          "Theo phần tiểu sử trên Wikipedia tiếng Việt, Nguyễn Tiến Hưng sinh năm 1935 tại Thanh Hóa và gia đình có gốc ở xã Nga Điền, huyện Nga Sơn. Từ cuối thập niên 1950, ông sang Hoa Kỳ học kinh tế và hoàn thành bậc tiến sĩ vào năm 1965.",
+          "Chi tiết này đáng chú ý với kho tư liệu Nga Sơn vì nó cho thấy từ một xã ven biển nhỏ của vùng cói, vẫn có những người đi rất xa trong con đường học thuật và hành chính quốc tế."
         ]
       },
       {
-        "title": "Những trường nên có khi nhập thật",
+        "title": "Dấu ấn nghề nghiệp",
         "paragraphs": [
-          "Tên, giai đoạn sống, quê quán, đóng góp chính, nguồn tham khảo và các liên kết tới địa danh hoặc bài viết liên quan.",
-          "Nếu thiếu đủ dữ liệu để viết hồ sơ dài, vẫn nên có bản tóm tắt ngắn và nhãn trạng thái tư liệu để người đọc hiểu mức độ hoàn thiện."
+          "Ông từng là chuyên gia kinh tế của Quỹ Tiền tệ Quốc tế, sau đó đảm nhiệm các vị trí về tái thiết, kế hoạch và phát triển trong chính quyền Việt Nam Cộng hòa giai đoạn 1971-1975.",
+          "Về sau, ông tiếp tục làm việc với Ngân hàng Thế giới, tham gia các dự án phát triển và giảng dạy đại học tại Hoa Kỳ, đồng thời được biết tới qua các sách hồi ký và khảo cứu về giai đoạn cuối chiến tranh Việt Nam."
+        ]
+      },
+      {
+        "title": "Lý do nên có hồ sơ riêng",
+        "paragraphs": [
+          "Hồ sơ Nguyễn Tiến Hưng giúp phần danh nhân của website không chỉ dừng ở nhân vật lịch sử xa xưa mà mở sang lớp trí thức, học giả hiện đại có gốc Nga Sơn.",
+          "Ở pha biên tập sau, có thể bổ sung thêm ảnh, trích sách, dòng thời gian học tập và các mốc công tác để hồ sơ này đầy đặn hơn."
         ]
       }
     ]
   },
   {
-    "id": "person-seed-02",
-    "slug": "nhan-vat-dang-bien-tap-02",
-    "name": "Nhân vật đang biên tập 02",
-    "role": "Nhân vật địa phương",
-    "summary": "Seed thứ hai dùng để tăng độ phong phú cho trang danh nhân và kiểm tra danh sách thẻ, ảnh đại diện và trang chi tiết.",
-    "statusLabel": "Đang bổ sung",
-    "sourceStatus": "Cần nguồn gốc ảnh và ghi chú đóng góp",
+    "id": "person-mai-anh-tuan",
+    "slug": "mai-anh-tuan",
+    "name": "Mai Anh Tuấn",
+    "role": "Đình nguyên Thám hoa triều Nguyễn",
+    "lifeSpan": "1815 - 1851",
+    "hometown": "Thạch Giản, Nga Thạch",
+    "summary": "Danh sĩ quê gốc Thạch Giản, Nga Thạch. Ông đỗ Đình nguyên Thám hoa năm 1843, làm quan triều Nguyễn và tử trận khi chống thổ phỉ ở Lạng Sơn năm 1851.",
+    "statusLabel": "Đã có bài riêng",
+    "sourceStatus": "Tổng hợp theo Wikipedia tiếng Việt và các nguồn công khai dẫn trên trang; cần bổ sung văn bia, gia phả hoặc địa chí nếu muốn nâng độ chắc chắn học thuật.",
     "featuredImage": "assets/images/portrait-placeholder.svg",
     "relatedCommunes": [
-      "Hồ sơ xã cũ đang biên tập 03"
+      "Nga Thạch"
+    ],
+    "relatedPosts": [
+      "mai-anh-tuan-tham-hoa-que-nga-thach"
     ],
     "tags": [
-      "tiểu sử",
-      "liên kết chéo"
+      "Nga Thạch",
+      "Thám hoa",
+      "nhà Nguyễn",
+      "khoa bảng"
     ],
     "sections": [
       {
-        "title": "Gợi ý biên tập",
+        "title": "Quê gốc ở Nga Thạch",
         "paragraphs": [
-          "Nếu sau này có nhiều loại nhân vật, có thể dùng thêm trường role hoặc category để phân loại theo danh nhân lịch sử, nhà giáo, nghệ nhân hoặc nhân chứng địa phương.",
-          "Cách phân loại này nên được quyết định sớm để trang danh sách không bị lẫn lộn khi dữ liệu lớn dần."
+          "Bài Mai Anh Tuấn trên Wikipedia tiếng Việt cho biết quê gốc của ông ở Thạch Giản, Nga Thạch, Nga Sơn, Thanh Hóa, dù nơi sinh là Hoàng Cầu ở Hà Nội. Với website này, quê gốc ở Nga Thạch là đầu mối quan trọng hơn cả.",
+          "Nó cho phép nối nhân vật vào lớp ký ức khoa bảng của Nga Sơn, thay vì chỉ nhìn địa phương này qua lát cắt nghề cói hay lịch sử sáp nhập."
+        ]
+      },
+      {
+        "title": "Con đường làm quan và ghi công",
+        "paragraphs": [
+          "Năm 1843, Mai Anh Tuấn đỗ Đình nguyên Thám hoa và được bổ làm Hàn lâm Thị độc. Sau đó ông tiếp tục giữ chức vụ trong bộ máy nhà Nguyễn, từng dâng sớ can vua Tự Đức về việc dùng thuyền công, rồi bị điều đi Lạng Sơn.",
+          "Năm 1851, ông tử trận khi cùng quân triều đình chống thổ phỉ tràn sang. Sau khi mất, ông được lập đền thờ và tên ông còn được đặt cho trường trung học phổ thông Mai Anh Tuấn ở Nga Sơn."
+        ]
+      },
+      {
+        "title": "Vị trí trong kho tư liệu Nga Sơn",
+        "paragraphs": [
+          "Đây là một hồ sơ có giá trị vì kết nối được ba trục: quê gốc Nga Thạch, truyền thống học hành của vùng đất này và ký ức đương đại qua tên trường học còn tồn tại.",
+          "Nếu sau này có điều kiện, nên bổ sung thêm tư liệu về từ đường, mộ phần hoặc bài khắc ghi công để bài viết bớt phụ thuộc vào nguồn tổng hợp."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "person-huu-loan",
+    "slug": "huu-loan",
+    "name": "Hữu Loan",
+    "role": "Nhà thơ",
+    "lifeSpan": "1916 - 2010",
+    "hometown": "Vân Hoàn, Nga Lĩnh",
+    "summary": "Nhà thơ Nguyễn Hữu Loan, quê Vân Hoàn, Nga Lĩnh, Nga Sơn, nổi tiếng nhất với bài Màu tím hoa sim và là một gương mặt đặc biệt của thơ Việt Nam thế kỷ 20.",
+    "statusLabel": "Đã có bài riêng",
+    "sourceStatus": "Tổng hợp theo Wikipedia tiếng Việt và các nguồn báo chí được dẫn trên trang; có thể mở rộng thêm bằng hồi ký và tư liệu gia đình ở giai đoạn sau.",
+    "featuredImage": "assets/images/portrait-placeholder.svg",
+    "relatedCommunes": [
+      "Nga Lĩnh"
+    ],
+    "relatedPosts": [
+      "huu-loan-va-mau-tim-hoa-sim-tu-nga-linh"
+    ],
+    "tags": [
+      "Nga Lĩnh",
+      "Vân Hoàn",
+      "Màu tím hoa sim",
+      "thơ"
+    ],
+    "sections": [
+      {
+        "title": "Từ làng Vân Hoàn",
+        "paragraphs": [
+          "Wikipedia tiếng Việt ghi Hữu Loan tên thật là Nguyễn Hữu Loan, sinh tại làng Vân Hoàn, xã Nga Lĩnh, huyện Nga Sơn. Đây là điểm tựa rất rõ để đưa ông vào danh sách danh nhân gốc Nga Sơn theo nghĩa chặt nhất.",
+          "Việc giữ lại tên xã cũ Nga Lĩnh trong hồ sơ nhân vật cũng hữu ích cho người đọc đang tra cứu theo ký ức địa danh trước các lần sáp nhập."
+        ]
+      },
+      {
+        "title": "Một đời thơ nhiều biến động",
+        "paragraphs": [
+          "Hữu Loan tham gia Việt Minh, từng hoạt động trong bộ máy cách mạng ở Thanh Hóa, tham gia quân đội trong kháng chiến chống Pháp và về sau làm việc tại Báo Văn nghệ trong một thời gian.",
+          "Ông được biết đến rộng rãi nhất với bài thơ Màu tím hoa sim. Bài thơ này vượt khỏi phạm vi một tác phẩm riêng lẻ để trở thành dấu mốc văn hóa đại chúng, được nhiều nhạc sĩ phổ nhạc và nhiều thế hệ bạn đọc nhớ đến."
+        ]
+      },
+      {
+        "title": "Giá trị đối với kho tư liệu địa phương",
+        "paragraphs": [
+          "Nếu Mai Anh Tuấn đại diện cho lớp khoa bảng cổ điển, thì Hữu Loan là gương mặt văn chương hiện đại nổi bật nhất có quê gốc Nga Sơn trong dữ liệu hiện nay.",
+          "Một hồ sơ đủ tốt về Hữu Loan có thể kéo theo nhiều lớp tư liệu khác: làng Vân Hoàn, ký ức chiến tranh, đời sống văn nghệ Thanh Hóa và các bản in, bản nhạc liên quan tới Màu tím hoa sim."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "person-truong-giang-long",
+    "slug": "truong-giang-long",
+    "name": "Trương Giang Long",
+    "role": "Thiếu tướng, GS.TS, Nhà giáo Nhân dân",
+    "lifeSpan": "1955 - nay",
+    "hometown": "Nga Sơn, Thanh Hóa",
+    "summary": "Thiếu tướng, giáo sư, tiến sĩ và Nhà giáo Nhân dân sinh năm 1955 tại Nga Sơn, từng là Phó Tổng cục trưởng Tổng cục Chính trị Công an nhân dân và Giám đốc Học viện Chính trị Công an nhân dân.",
+    "statusLabel": "Đã có bài riêng",
+    "sourceStatus": "Tổng hợp theo Wikipedia tiếng Việt và các nguồn công khai dẫn trên trang; địa chỉ xã gốc cụ thể chưa thấy nêu rõ trong lần tra cứu này.",
+    "featuredImage": "assets/images/portrait-placeholder.svg",
+    "relatedCommunes": [
+      "Nga Sơn"
+    ],
+    "relatedPosts": [
+      "truong-giang-long-tu-nga-son-den-hoc-vien-chinh-tri-cand"
+    ],
+    "tags": [
+      "Nga Sơn",
+      "giáo dục",
+      "công an",
+      "Nhà giáo Nhân dân"
+    ],
+    "sections": [
+      {
+        "title": "Xuất thân từ Nga Sơn",
+        "paragraphs": [
+          "Trong số các tên tuổi đương đại được liệt kê ở mục Danh nhân của bài Nga Sơn, Trương Giang Long là trường hợp có thông tin tương đối rõ về năm sinh, nơi sinh và con đường nghề nghiệp. Wikipedia ghi ông sinh năm 1955 tại Nga Sơn, Thanh Hóa.",
+          "Dù lần tra cứu này chưa xác định được tới cấp xã cũ, ông vẫn phù hợp để có một hồ sơ riêng trong danh sách danh nhân gốc Nga Sơn."
+        ]
+      },
+      {
+        "title": "Sự nghiệp quản lý và đào tạo",
+        "paragraphs": [
+          "Ông từng công tác trong lĩnh vực lý luận, báo chí và giáo dục, sau đó được bổ nhiệm làm Phó Tổng Biên tập Tạp chí Cộng sản trước khi chuyển sang Bộ Công an.",
+          "Ở giai đoạn sau, Trương Giang Long giữ chức Phó Tổng cục trưởng Tổng cục Chính trị Công an nhân dân, kiêm Giám đốc Học viện Chính trị Công an nhân dân, được phong hàm Thiếu tướng và danh hiệu Nhà giáo Nhân dân."
+        ]
+      },
+      {
+        "title": "Lý do đưa vào chuyên mục danh nhân",
+        "paragraphs": [
+          "Hồ sơ này giúp mở rộng khái niệm danh nhân trên site sang nhóm nhân vật đương đại có dấu ấn trong quản lý, giáo dục và đào tạo chuyên ngành.",
+          "Nếu muốn làm hồ sơ chắc hơn, bước tiếp theo nên là đối chiếu thêm hồ sơ công khai từ các cơ quan nơi ông từng công tác để xác định rõ xã gốc và các mốc chức vụ chính."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "person-mai-sy-dien",
+    "slug": "mai-sy-dien",
+    "name": "Mai Sỹ Diến",
+    "role": "Chính khách",
+    "lifeSpan": "1963 - nay",
+    "hometown": "Nga Hải",
+    "summary": "Chính khách sinh năm 1963, quê xã Nga Hải, từng là đại biểu Quốc hội khóa XIV của Thanh Hóa và đảm nhiệm nhiều vị trí quản lý ở địa phương.",
+    "statusLabel": "Đã có bài riêng",
+    "sourceStatus": "Tổng hợp theo Wikipedia tiếng Việt và các nguồn công khai dẫn trên trang; nên bổ sung thêm hồ sơ chính thức của Quốc hội và tỉnh Thanh Hóa ở pha sau.",
+    "featuredImage": "assets/images/portrait-placeholder.svg",
+    "relatedCommunes": [
+      "Nga Hải"
+    ],
+    "relatedPosts": [
+      "mai-sy-dien-tu-nga-hai-den-nghi-truong"
+    ],
+    "tags": [
+      "Nga Hải",
+      "Quốc hội",
+      "Thanh Hóa",
+      "quản lý địa phương"
+    ],
+    "sections": [
+      {
+        "title": "Quê gốc ở Nga Hải",
+        "paragraphs": [
+          "Theo trang Mai Sỹ Diến trên Wikipedia tiếng Việt, ông sinh năm 1963 và quê quán ở xã Nga Hải, huyện Nga Sơn, Thanh Hóa. Đây là một hồ sơ dễ nối trực tiếp vào mạng lưới xã cũ của website.",
+          "Trong bối cảnh nhiều nhân vật đương đại của Nga Sơn mới chỉ xuất hiện rời rạc trong các danh sách tổng hợp, việc chuẩn hóa một hồ sơ cơ bản như thế này là bước cần thiết."
+        ]
+      },
+      {
+        "title": "Con đường công tác",
+        "paragraphs": [
+          "Mai Sỹ Diến có nền đào tạo về nông nghiệp và từng giữ nhiều vị trí công tác ở Thanh Hóa. Bài viết hiện có cho biết ông từng là đại biểu hội đồng nhân dân huyện Nga Sơn, sau đó trúng cử đại biểu Quốc hội khóa XIV năm 2016.",
+          "Hồ sơ công khai cũng cho thấy ông tham gia các vị trí trong bộ máy quản lý và thanh tra của tỉnh Thanh Hóa. Điều này khiến ông trở thành một ví dụ điển hình cho lớp cán bộ trưởng thành từ chính địa phương."
+        ]
+      },
+      {
+        "title": "Vai trò trong kho tư liệu Nga Sơn",
+        "paragraphs": [
+          "Không phải mọi hồ sơ danh nhân đều cần là nhân vật văn chương hay lịch sử cổ. Với một kho tư liệu địa phương, việc ghi nhận những gương mặt đương đại có xuất thân rõ từ các xã của Nga Sơn cũng có giá trị tra cứu lâu dài.",
+          "Bước tiếp theo phù hợp là bổ sung thêm tài liệu bầu cử, hồ sơ chức vụ và ảnh tư liệu để hồ sơ này bớt phụ thuộc vào nguồn tổng hợp."
         ]
       }
     ]
