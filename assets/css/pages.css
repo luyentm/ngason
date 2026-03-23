@@ -83,6 +83,15 @@
   margin-top: 0.9rem;
 }
 
+.directory-panel {
+  margin-bottom: 1.4rem;
+  padding: 1rem 1.1rem;
+  border-radius: 24px;
+  border: 1px solid rgba(29, 43, 42, 0.08);
+  background: rgba(255, 250, 241, 0.78);
+  box-shadow: var(--shadow);
+}
+
 .fact-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -116,6 +125,21 @@
 .inline-links-rich a {
   background: rgba(138, 75, 45, 0.08);
   color: var(--umber);
+}
+
+.directory-links a {
+  background: rgba(51, 93, 84, 0.12);
+  color: var(--forest);
+}
+
+.card-link-shell {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.card-link-shell .text-link {
+  margin-top: auto;
 }
 
 .commune-deep-grid {

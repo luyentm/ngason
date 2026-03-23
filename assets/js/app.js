@@ -17,15 +17,37 @@
   }
 
   function activateReveal() {
+    const revealElements = document.querySelectorAll(".reveal");
+
+    revealElements.forEach((element) => {
+      const rect = element.getBoundingClientRect();
+      if (rect.top < window.innerHeight - 40) {
+        element.classList.add("is-visible");
+      }
+    });
+
+    if (!("IntersectionObserver" in window)) {
+      revealElements.forEach((element) => element.classList.add("is-visible"));
+      return;
+    }
+
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add("is-visible");
+          observer.unobserve(entry.target);
         }
       });
-    }, { threshold: 0.15 });
+    }, {
+      threshold: 0.01,
+      rootMargin: "0px 0px -8% 0px"
+    });
 
-    document.querySelectorAll(".reveal").forEach((element) => observer.observe(element));
+    revealElements.forEach((element) => {
+      if (!element.classList.contains("is-visible")) {
+        observer.observe(element);
+      }
+    });
   }
 
   function resolvePath(path) {
@@ -347,6 +369,12 @@
       renderers.renderStatCard("Mốc cần đối chiếu thêm", String(communes.filter((item) => item.status !== "verified").length), "Các mục đã có cấu trúc nhưng còn cần nâng độ chắc chắn nguồn ở một số mốc."),
       renderers.renderStatCard("Xã mới sau 2025", String(relations.modernUnits.length), "Các đơn vị hiện nay để người dùng tra ngược từ tên mới về tên cũ.")
     ].join(""));
+
+    setHtml("[data-commune-directory]", renderers.renderDirectoryLinks(
+      [...communes].sort((left, right) => left.name.localeCompare(right.name, "vi")),
+      dataApi.getBasePath(),
+      "Chưa có danh mục xã để hiển thị."
+    ));
 
     setHtml("[data-modern-communes-list]", modernCards);
 

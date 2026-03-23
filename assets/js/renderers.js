@@ -27,19 +27,67 @@
     `;
   }
 
-  function renderCommuneCard(item, basePath) {
-    const imagePath = `${basePath}/${item.featuredImage}`;
+  function getVisualPalette(seed) {
+    const palettes = [
+      ["#6d3220", "#d8af8d", "#fff7ed"],
+      ["#335d54", "#b8d0c8", "#f5fbf8"],
+      ["#6a5133", "#e2c79d", "#fff8ea"],
+      ["#7a4b34", "#f0c4a3", "#fff4ea"],
+      ["#4f6752", "#c8d6b6", "#f7fbf2"],
+      ["#5e4a74", "#d0c2e8", "#faf7ff"]
+    ];
+
+    const hash = String(seed || "")
+      .split("")
+      .reduce((total, character) => total + character.charCodeAt(0), 0);
+
+    return palettes[hash % palettes.length];
+  }
+
+  function getCommuneInitials(name) {
+    const tokens = String(name || "")
+      .split(/\s+/)
+      .filter(Boolean)
+      .filter((token) => !["Xa", "Xã", "Thi", "Thị", "Tran", "Trấn"].includes(token));
+
+    if (tokens.length === 0) {
+      return "NS";
+    }
+
+    const picked = tokens.length === 1 ? [tokens[0]] : tokens.slice(-2);
+    return picked.map((token) => token[0]).join("").toUpperCase();
+  }
+
+  function renderCommuneVisual(title, subtitle, motif, seed) {
+    const [primary, secondary, ink] = getVisualPalette(seed);
     return `
-      <article class="card reveal is-visible">
-        <img class="card-media" src="${escapeHtml(imagePath)}" alt="${escapeHtml(item.name)}">
+      <div class="commune-visual" style="--commune-primary:${escapeHtml(primary)}; --commune-secondary:${escapeHtml(secondary)}; --commune-ink:${escapeHtml(ink)};">
+        <div class="commune-visual-top">
+          <span class="commune-visual-mark">${escapeHtml(getCommuneInitials(title))}</span>
+          <span class="commune-visual-chip">${escapeHtml(subtitle)}</span>
+        </div>
+        <div class="commune-visual-body">
+          <strong>${escapeHtml(title)}</strong>
+          <p>${escapeHtml(motif)}</p>
+        </div>
+      </div>
+    `;
+  }
+
+  function renderCommuneCard(item, basePath) {
+    const href = `${basePath}/pages/commune.html?slug=${item.slug}`;
+    const motif = item.tags?.[0] || item.periodLabel;
+    return `
+      <a class="card card-link-shell reveal is-visible" href="${escapeHtml(href)}" aria-label="Mở hồ sơ ${escapeHtml(item.name)}">
+        ${renderCommuneVisual(item.name, item.periodLabel, motif, item.slug)}
         <div class="card-meta">
           ${renderBadge(item.statusLabel)}
           ${renderBadge(item.periodLabel, "badge-neutral")}
         </div>
         <h3>${escapeHtml(item.name)}</h3>
         <p>${escapeHtml(item.summary)}</p>
-        <a class="text-link" href="${escapeHtml(basePath)}/pages/commune.html?slug=${escapeHtml(item.slug)}">Mở hồ sơ xã</a>
-      </article>
+        <span class="text-link">Mở hồ sơ xã</span>
+      </a>
     `;
   }
 
@@ -119,8 +167,10 @@
   }
 
   function renderModernUnitCard(item, formedFromNames) {
+    const motif = formedFromNames[0] ? `Từ ${formedFromNames[0]}` : item.period;
     return `
       <article class="card reveal is-visible">
+        ${renderCommuneVisual(item.name, item.period, motif, item.slug)}
         <div class="card-meta">
           ${renderBadge(item.period)}
           ${renderBadge("Xã hiện nay", "badge-neutral")}
@@ -186,6 +236,18 @@
     return `
       <div class="inline-links inline-links-rich">
         ${items.map((item) => `<span>${escapeHtml(item)}</span>`).join("")}
+      </div>
+    `;
+  }
+
+  function renderDirectoryLinks(items, basePath, emptyMessage) {
+    if (!items.length) {
+      return renderEmptyState(emptyMessage);
+    }
+
+    return `
+      <div class="inline-links inline-links-rich directory-links">
+        ${items.map((item) => `<a href="${escapeHtml(basePath)}/pages/commune.html?slug=${escapeHtml(item.slug)}">${escapeHtml(item.name)}</a>`).join("")}
       </div>
     `;
   }
@@ -268,6 +330,7 @@
     renderFactGrid,
     renderLinkPills,
     renderTextPills,
+    renderDirectoryLinks,
     renderBreadcrumbs,
     renderDetailHero,
     renderKeyValueList,
