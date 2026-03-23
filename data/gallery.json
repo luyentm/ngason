@@ -1,0 +1,32 @@
+[
+  {
+    "id": "gallery-01",
+    "title": "Khung ảnh tư liệu 01",
+    "image": "assets/images/gallery-placeholder-1.svg",
+    "caption": "Ảnh minh họa cho cấu trúc gallery. Khi có tư liệu thật, cần thay bằng ảnh đã được tối ưu và có chú thích nguồn rõ ràng.",
+    "period": "Ảnh seed",
+    "statusLabel": "Chờ tư liệu thật",
+    "alt": "Ảnh tư liệu mẫu thứ nhất",
+    "source": "Nội dung minh họa"
+  },
+  {
+    "id": "gallery-02",
+    "title": "Khung ảnh tư liệu 02",
+    "image": "assets/images/gallery-placeholder-2.svg",
+    "caption": "Mục này dùng để thử lightbox và bố cục lưới ảnh trên mobile lẫn desktop trước khi gallery thật được nhập đầy đủ.",
+    "period": "Bộ sưu tập seed",
+    "statusLabel": "Minh họa hệ thống",
+    "alt": "Ảnh tư liệu mẫu thứ hai",
+    "source": "Nội dung minh họa"
+  },
+  {
+    "id": "gallery-03",
+    "title": "Khung ảnh tư liệu 03",
+    "image": "assets/images/gallery-placeholder-3.svg",
+    "caption": "Ảnh mẫu thứ ba cho thấy cách thư viện ảnh có thể tiếp nhận nhiều bộ sưu tập khác nhau mà vẫn dùng chung một cấu trúc dữ liệu.",
+    "period": "Khởi tạo",
+    "statusLabel": "Dữ liệu seed",
+    "alt": "Ảnh tư liệu mẫu thứ ba",
+    "source": "Nội dung minh họa"
+  }
+]

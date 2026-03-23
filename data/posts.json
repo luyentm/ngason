@@ -1,0 +1,87 @@
+[
+  {
+    "id": "post-seed-01",
+    "slug": "khoi-tao-kho-tu-lieu-nga-son",
+    "title": "Khởi tạo kho tư liệu số cho ký ức Nga Sơn",
+    "category": "Định hướng dự án",
+    "summary": "Bài seed đầu tiên giải thích cách website được dựng để lưu trữ xã cũ, mốc sáp nhập, danh nhân và ảnh tư liệu theo cấu trúc bền vững.",
+    "statusLabel": "Đã soạn khung",
+    "sourceStatus": "Nội dung nội bộ, không cần kiểm chứng lịch sử",
+    "featuredImage": "assets/images/hero-archival.svg",
+    "relatedCommunes": [
+      "Hồ sơ xã cũ đang biên tập 01"
+    ],
+    "relatedPeople": [
+      "Nhân vật đang biên tập 01"
+    ],
+    "sections": [
+      {
+        "title": "Vì sao bắt đầu từ cấu trúc",
+        "paragraphs": [
+          "Khi xây một website địa phương có vòng đời dài, rủi ro lớn nhất không phải là giao diện ban đầu, mà là việc nội dung tăng lên nhanh hơn cấu trúc có thể chịu đựng. Vì vậy bản triển khai đầu tiên của ngason.com được dựng từ schema dữ liệu, điều hướng và liên kết chéo.",
+          "Cách làm này cho phép thêm dần từng xã, từng ảnh và từng bài mà không phải nhân bản thủ công hàng chục trang HTML khác nhau."
+        ]
+      },
+      {
+        "title": "Ba nhóm việc quan trọng ngay sau scaffold",
+        "paragraphs": [
+          "Thứ nhất là nhập danh sách xã cũ đã được xác minh. Thứ hai là dựng timeline các mốc hành chính lớn. Thứ ba là chuẩn hóa nguồn cho ảnh và bài viết.",
+          "Khi ba trục này đã có dữ liệu nền, website có thể bước sang giai đoạn biên tập nội dung thực tế với tốc độ nhanh hơn nhiều."
+        ],
+        "list": [
+          "Nhập tên xã, slug và mô tả ngắn.",
+          "Gắn từng mốc vào timeline chung.",
+          "Liên kết xã với bài viết và ảnh."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "post-seed-02",
+    "slug": "khung-kiem-chung-tu-lieu",
+    "title": "Khung kiểm chứng tư liệu trước khi xuất bản",
+    "category": "Biên tập tư liệu",
+    "summary": "Một bài seed định nghĩa cách site nên xử lý dữ liệu chưa chắc chắn: luôn gắn nhãn trạng thái thay vì điền đoán thông tin lịch sử.",
+    "statusLabel": "Đang biên tập",
+    "sourceStatus": "Cần hoàn thiện checklist nguồn",
+    "featuredImage": "assets/images/hero-archival.svg",
+    "relatedCommunes": [
+      "Hồ sơ xã cũ đang biên tập 02"
+    ],
+    "relatedPeople": [],
+    "sections": [
+      {
+        "title": "Không lấp chỗ trống bằng suy đoán",
+        "paragraphs": [
+          "Một website lưu trữ địa danh cũ dễ mất uy tín nếu dùng dữ liệu chưa xác minh mà trình bày như sự thật. Vì vậy bản triển khai này dùng các nhãn như chờ kiểm chứng, đang bổ sung hoặc seed dữ liệu để nói rõ mức độ hoàn thiện.",
+          "Cách làm này giữ cho kho tư liệu trung thực ngay cả khi nội dung vẫn đang trong quá trình sưu tầm."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "post-seed-03",
+    "slug": "dong-gop-anh-va-ky-uc",
+    "title": "Đóng góp ảnh cũ và ký ức gia đình vào kho tư liệu",
+    "category": "Kêu gọi đóng góp",
+    "summary": "Bài seed thứ ba mở đường cho chuyên mục huy động ảnh cũ, chuyện cũ và chú thích từ cộng đồng người Nga Sơn ở xa quê.",
+    "statusLabel": "Ý tưởng nội dung",
+    "sourceStatus": "Cần quyết định kênh liên hệ chính thức",
+    "featuredImage": "assets/images/hero-archival.svg",
+    "relatedCommunes": [
+      "Hồ sơ xã cũ đang biên tập 03"
+    ],
+    "relatedPeople": [
+      "Nhân vật đang biên tập 02"
+    ],
+    "sections": [
+      {
+        "title": "Lý do nên có kênh đóng góp",
+        "paragraphs": [
+          "Nhiều ảnh và câu chuyện giá trị thường nằm trong album gia đình hoặc trí nhớ cá nhân, không xuất hiện trong tài liệu hành chính. Một kho tư liệu địa phương muốn sống lâu cần có đường cho cộng đồng mang tư liệu tới.",
+          "Ở pha sau, site có thể mở thêm biểu mẫu hoặc địa chỉ liên hệ rõ ràng để nhận ảnh, chú thích và thông tin bổ sung."
+        ]
+      }
+    ]
+  }
+]

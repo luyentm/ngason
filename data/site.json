@@ -1,0 +1,104 @@
+{
+  "home": {
+    "title": "Ký ức địa danh Nga Sơn",
+    "summary": "Một nơi để người Nga Sơn đi xa có thể tra cứu lại tên các xã cũ, lần theo các mốc sáp nhập, đọc lại những câu chuyện lịch sử và lưu giữ hình ảnh tư liệu theo cách bền vững, dễ mở rộng.",
+    "features": [
+      {
+        "kicker": "Địa danh",
+        "title": "Danh sách xã cũ",
+        "summary": "Điểm vào trung tâm để gom các hồ sơ xã trước sáp nhập, từ tên gọi cũ đến dữ liệu liên quan.",
+        "href": "./pages/communes.html",
+        "label": "Mở danh sách xã"
+      },
+      {
+        "kicker": "Timeline",
+        "title": "Lịch sử sáp nhập",
+        "summary": "Dựng lại các mốc hành chính theo trục thời gian để việc tra cứu không còn đứt đoạn.",
+        "href": "./pages/timeline.html",
+        "label": "Mở timeline"
+      },
+      {
+        "kicker": "Tư liệu",
+        "title": "Bài viết lịch sử",
+        "summary": "Không chỉ có tên địa danh, site còn hướng tới các bài viết có cấu trúc và nguồn tham khảo rõ ràng.",
+        "href": "./pages/posts.html",
+        "label": "Xem bài viết"
+      },
+      {
+        "kicker": "Thị giác",
+        "title": "Ảnh tư liệu",
+        "summary": "Một thư viện ảnh để ký ức không chỉ được kể lại bằng chữ mà còn được nhìn thấy bằng hình.",
+        "href": "./pages/gallery.html",
+        "label": "Mở thư viện ảnh"
+      }
+    ]
+  },
+  "navigation": [
+    {
+      "label": "Trang chủ",
+      "href": "./index.html"
+    },
+    {
+      "label": "Xã cũ",
+      "href": "./pages/communes.html"
+    },
+    {
+      "label": "Timeline",
+      "href": "./pages/timeline.html"
+    },
+    {
+      "label": "Danh nhân",
+      "href": "./pages/people.html"
+    },
+    {
+      "label": "Bài viết",
+      "href": "./pages/posts.html"
+    },
+    {
+      "label": "Ảnh tư liệu",
+      "href": "./pages/gallery.html"
+    },
+    {
+      "label": "Giới thiệu",
+      "href": "./pages/about.html"
+    }
+  ],
+  "notices": [
+    "Phiên bản hiện tại là scaffold triển khai đầu tiên: cấu trúc site đã hoạt động, dữ liệu lịch sử chi tiết cần tiếp tục nhập và kiểm chứng từ nguồn địa phương.",
+    "Thiết kế ưu tiên tính bền vững: thêm xã mới, bài mới hoặc ảnh mới chủ yếu chỉ cần bổ sung dữ liệu JSON và tư liệu đi kèm."
+  ],
+  "about": {
+    "sections": [
+      {
+        "title": "Mục tiêu",
+        "paragraphs": [
+          "ngason.com được dựng theo hướng một kho tư liệu số có thể sống lâu: đọc tốt trên điện thoại, dễ bổ sung nội dung, và có cấu trúc đủ rõ để sau này thêm tìm kiếm, bản đồ hoặc các bộ sưu tập chuyên đề.",
+          "Ở bản khởi tạo này, trọng tâm là dựng kiến trúc nội dung và trải nghiệm điều hướng để khi dữ liệu thật được đưa vào, site không cần làm lại từ đầu."
+        ]
+      },
+      {
+        "title": "Nguyên tắc biên tập",
+        "paragraphs": [
+          "Mọi dữ liệu lịch sử, tên gọi cũ và mốc sáp nhập nên đi kèm nguồn hoặc trạng thái kiểm chứng. Site không nên lấp chỗ trống bằng thông tin chưa được xác nhận.",
+          "Với mỗi xã, mỗi bài viết và mỗi ảnh, nên có ít nhất một mô tả ngắn, nhãn trạng thái và liên kết chéo tới các nội dung liên quan."
+        ],
+        "list": [
+          "Giữ URL ổn định theo slug không dấu.",
+          "Không hardcode nội dung lặp lại trong nhiều file HTML.",
+          "Tách dữ liệu khỏi giao diện để dễ bảo trì.",
+          "Ưu tiên trải nghiệm mobile-first vì nhiều người dùng sẽ truy cập bằng điện thoại."
+        ]
+      },
+      {
+        "title": "Bước tiếp theo hợp lý",
+        "paragraphs": [
+          "Ngay sau scaffold này, công việc quan trọng nhất là nhập danh sách xã cũ đã được xác minh, sau đó điền timeline sáp nhập và kết nối tư liệu vào từng hồ sơ xã.",
+          "Khi dữ liệu đủ dày, có thể mở rộng sang tìm kiếm tên xã, lọc theo thời kỳ và bản đồ địa danh mà không cần đổi công nghệ nền."
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "note": "Một website tĩnh được dựng để lưu trữ địa danh cũ, ký ức lịch sử và tư liệu Nga Sơn theo cách có thể mở rộng lâu dài mà không cần framework frontend."
+  }
+}

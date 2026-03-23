@@ -1,0 +1,31 @@
+[
+  {
+    "id": "timeline-01",
+    "period": "Mốc 01",
+    "title": "Khung mốc sáp nhập đang chờ xác minh",
+    "summary": "Một mục timeline mẫu để dựng format năm, mô tả thay đổi hành chính và liên kết tới các xã cũ liên quan.",
+    "statusLabel": "Chờ tư liệu",
+    "relatedCommunes": [
+      "Hồ sơ xã cũ đang biên tập 01",
+      "Hồ sơ xã cũ đang biên tập 02"
+    ]
+  },
+  {
+    "id": "timeline-02",
+    "period": "Mốc 02",
+    "title": "Chuẩn bị liên kết quyết định hành chính và địa danh",
+    "summary": "Khi có dữ liệu thật, mỗi mốc nên trỏ ngược lại hồ sơ xã, bài viết giải thích và nguồn tham khảo để tránh timeline chỉ là một danh sách rời rạc.",
+    "statusLabel": "Đang biên tập",
+    "relatedCommunes": [
+      "Hồ sơ xã cũ đang biên tập 03"
+    ]
+  },
+  {
+    "id": "timeline-03",
+    "period": "Mốc 03",
+    "title": "Giai đoạn đưa dữ liệu kiểm chứng vào timeline",
+    "summary": "Mục seed thứ ba để kiểm tra độ dài trang timeline và nhịp trình bày trên mobile trước khi có số lượng mốc thực tế nhiều hơn.",
+    "statusLabel": "Seed dữ liệu",
+    "relatedCommunes": []
+  }
+]

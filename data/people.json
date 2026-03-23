@@ -1,0 +1,61 @@
+[
+  {
+    "id": "person-seed-01",
+    "slug": "nhan-vat-dang-bien-tap-01",
+    "name": "Nhân vật đang biên tập 01",
+    "role": "Hồ sơ nhân vật seed",
+    "summary": "Mục này dùng để kiểm tra bố cục hồ sơ danh nhân và mối liên hệ giữa nhân vật với xã cũ, bài viết và ảnh tư liệu.",
+    "statusLabel": "Chờ kiểm chứng",
+    "sourceStatus": "Chưa nhập tiểu sử xác minh",
+    "featuredImage": "assets/images/portrait-placeholder.svg",
+    "relatedCommunes": [
+      "Hồ sơ xã cũ đang biên tập 01"
+    ],
+    "tags": [
+      "nhân vật",
+      "dữ liệu seed"
+    ],
+    "sections": [
+      {
+        "title": "Vai trò của hồ sơ nhân vật",
+        "paragraphs": [
+          "Mỗi hồ sơ nhân vật nên cho thấy nhân vật gắn với địa danh nào, đóng vai trò gì và còn tư liệu gì có thể dẫn tiếp sang các bài viết hoặc ảnh.",
+          "Ở bản scaffold này, nội dung đang là mẫu để kiểm tra trải nghiệm và schema dữ liệu chứ chưa phải hồ sơ lịch sử hoàn chỉnh."
+        ]
+      },
+      {
+        "title": "Những trường nên có khi nhập thật",
+        "paragraphs": [
+          "Tên, giai đoạn sống, quê quán, đóng góp chính, nguồn tham khảo và các liên kết tới địa danh hoặc bài viết liên quan.",
+          "Nếu thiếu đủ dữ liệu để viết hồ sơ dài, vẫn nên có bản tóm tắt ngắn và nhãn trạng thái tư liệu để người đọc hiểu mức độ hoàn thiện."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "person-seed-02",
+    "slug": "nhan-vat-dang-bien-tap-02",
+    "name": "Nhân vật đang biên tập 02",
+    "role": "Nhân vật địa phương",
+    "summary": "Seed thứ hai dùng để tăng độ phong phú cho trang danh nhân và kiểm tra danh sách thẻ, ảnh đại diện và trang chi tiết.",
+    "statusLabel": "Đang bổ sung",
+    "sourceStatus": "Cần nguồn gốc ảnh và ghi chú đóng góp",
+    "featuredImage": "assets/images/portrait-placeholder.svg",
+    "relatedCommunes": [
+      "Hồ sơ xã cũ đang biên tập 03"
+    ],
+    "tags": [
+      "tiểu sử",
+      "liên kết chéo"
+    ],
+    "sections": [
+      {
+        "title": "Gợi ý biên tập",
+        "paragraphs": [
+          "Nếu sau này có nhiều loại nhân vật, có thể dùng thêm trường role hoặc category để phân loại theo danh nhân lịch sử, nhà giáo, nghệ nhân hoặc nhân chứng địa phương.",
+          "Cách phân loại này nên được quyết định sớm để trang danh sách không bị lẫn lộn khi dữ liệu lớn dần."
+        ]
+      }
+    ]
+  }
+]

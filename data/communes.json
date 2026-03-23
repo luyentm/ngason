@@ -1,0 +1,125 @@
+[
+  {
+    "id": "commune-seed-01",
+    "slug": "ho-so-xa-cu-dang-bien-tap-01",
+    "name": "Hồ sơ xã cũ đang biên tập 01",
+    "alternateNames": [
+      "Tên gọi cũ đang xác minh",
+      "Biến thể địa danh đang cập nhật"
+    ],
+    "summary": "Mục dữ liệu mẫu để kiểm thử giao diện chi tiết cho một xã cũ trước sáp nhập. Cấu trúc đã sẵn sàng để thay bằng dữ liệu thật khi có nguồn kiểm chứng.",
+    "periodLabel": "Xã cũ trước sáp nhập",
+    "status": "pending",
+    "statusLabel": "Chờ kiểm chứng",
+    "sourceStatus": "Cần bổ sung hồ sơ địa phương và nguồn tư liệu gốc",
+    "featuredImage": "assets/images/commune-placeholder.svg",
+    "relatedPosts": [
+      "khoi-tao-kho-tu-lieu-nga-son"
+    ],
+    "relatedPeople": [
+      "nhan-vat-dang-bien-tap-01"
+    ],
+    "tags": [
+      "địa danh",
+      "hành chính",
+      "ký ức"
+    ],
+    "sections": [
+      {
+        "title": "Tổng quan",
+        "paragraphs": [
+          "Đây là một hồ sơ khởi tạo dành cho mô hình trang xã cũ. Sau khi có danh sách xác minh, tên xã và phần mô tả ngắn sẽ được thay thế trực tiếp trong dữ liệu JSON mà không cần sửa bố cục trang.",
+          "Trang chi tiết được thiết kế để chứa đồng thời lịch sử hành chính, địa danh nổi bật, tư liệu hình ảnh và liên kết sang bài viết hoặc nhân vật liên quan."
+        ]
+      },
+      {
+        "title": "Lịch sử hành chính",
+        "paragraphs": [
+          "Phần này sẽ dùng để ghi các mốc tách nhập, đổi tên, điều chỉnh địa giới hoặc thông tin về đơn vị hành chính cũ liên quan.",
+          "Khi nhập dữ liệu thật, mỗi mốc nên có năm hoặc giai đoạn tương ứng và nếu có thể nên dẫn về một timeline chung."
+        ],
+        "list": [
+          "Thêm năm hoặc giai đoạn cụ thể.",
+          "Ghi rõ nguồn tham khảo.",
+          "Liên kết sang timeline nếu mốc nằm trong thay đổi cấp huyện hoặc cấp xã."
+        ]
+      },
+      {
+        "title": "Ghi chú biên tập",
+        "paragraphs": [
+          "Cấu trúc này đang đóng vai trò placeholder an toàn để bắt đầu làm site mà không bịa thêm dữ liệu lịch sử chưa được xác nhận.",
+          "Khi có dữ liệu thật, chỉ cần thay nội dung ở đây và cập nhật các liên kết chéo ở relatedPosts hoặc relatedPeople."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "commune-seed-02",
+    "slug": "ho-so-xa-cu-dang-bien-tap-02",
+    "name": "Hồ sơ xã cũ đang biên tập 02",
+    "alternateNames": [
+      "Tên cũ đang xác minh"
+    ],
+    "summary": "Một mục seed thứ hai để thể hiện cách website hiển thị nhiều hồ sơ xã và giữ định dạng nhất quán khi dữ liệu mở rộng.",
+    "periodLabel": "Hồ sơ seed",
+    "status": "pending",
+    "statusLabel": "Chờ kiểm chứng",
+    "sourceStatus": "Cần nhập dữ liệu lịch sử và địa danh tiêu biểu",
+    "featuredImage": "assets/images/commune-placeholder.svg",
+    "relatedPosts": [
+      "khung-kiem-chung-tu-lieu"
+    ],
+    "relatedPeople": [],
+    "tags": [
+      "khởi tạo",
+      "schema dữ liệu"
+    ],
+    "sections": [
+      {
+        "title": "Vai trò của hồ sơ seed",
+        "paragraphs": [
+          "Mục này giúp kiểm tra cách card danh sách, trang chi tiết và các khu vực liên kết chéo hoạt động trước khi đưa danh sách xã thật vào dữ liệu.",
+          "Khi có danh sách xác minh, slug và tên hiển thị sẽ được thay trực tiếp trong JSON."
+        ]
+      },
+      {
+        "title": "Dữ liệu nên bổ sung",
+        "paragraphs": [
+          "Hồ sơ xã thật nên có phần mô tả rất ngắn để người dùng lướt nhanh trong danh sách, sau đó mới mở vào nội dung dài.",
+          "Các trường như alternateNames, tags, relatedPosts, relatedPeople giúp site sau này mở rộng sang tìm kiếm và lọc mà không phải thay đổi cấu trúc cốt lõi."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "commune-seed-03",
+    "slug": "ho-so-xa-cu-dang-bien-tap-03",
+    "name": "Hồ sơ xã cũ đang biên tập 03",
+    "alternateNames": [],
+    "summary": "Seed thứ ba được thêm để danh sách trang chủ và trang xã cũ có đủ độ dày trực quan ngay trong giai đoạn dựng nền tảng.",
+    "periodLabel": "Chuẩn bị nhập dữ liệu",
+    "status": "pending",
+    "statusLabel": "Chờ kiểm chứng",
+    "sourceStatus": "Cần bổ sung mô tả, địa danh nổi bật và ảnh liên quan",
+    "featuredImage": "assets/images/commune-placeholder.svg",
+    "relatedPosts": [
+      "dong-gop-anh-va-ky-uc"
+    ],
+    "relatedPeople": [
+      "nhan-vat-dang-bien-tap-02"
+    ],
+    "tags": [
+      "tư liệu",
+      "triển khai"
+    ],
+    "sections": [
+      {
+        "title": "Trạng thái hiện tại",
+        "paragraphs": [
+          "Trang xã này đang cho thấy cách hệ thống xử lý một hồ sơ còn ít dữ liệu nhưng vẫn phải hiển thị ổn định và dễ đọc.",
+          "Đó là yêu cầu thực tế vì quá trình nhập tư liệu thường không đồng đều giữa các địa danh."
+        ]
+      }
+    ]
+  }
+]
