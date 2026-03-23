@@ -32,6 +32,24 @@ Ghi chú:
 - Từ văn bản này có thể xác nhận chắc rằng đến ngày 17/03/1966, hai xã Nga Tiến và Nga Tân chính thức xuất hiện.
 - Chưa có danh sách văn bản đầy đủ toàn bộ các xã của huyện tại ngay trước thời điểm này trong lần tra cứu hiện tại.
 
+## Bổ sung tra cứu về giai đoạn trước 1966
+
+Trong lần tra cứu bổ sung, bài về xã Nga Tiến trên Wikipedia tiếng Việt cho biết:
+
+- Nga Tiến được thành lập năm 1966.
+- Bài này mô tả xã hình thành từ một số phần lãnh thổ của Tân An, Tân Giáp, Tân Thành.
+
+Điểm cần thận trọng:
+
+- Quyết định 73-NV gốc lại ghi 4 hợp tác xã nông nghiệp là Tân Hải, Tân An, Tân Giáp, Tân Thành cấu thành xã Nga Tiến.
+- Vì vậy chưa nên kết luận Tân An, Tân Giáp, Tân Thành là tên xã cấp hành chính nếu chưa có thêm văn bản cấp một khác xác nhận.
+
+Tạm thời có thể rút ra nhận định an toàn hơn:
+
+1. Nga Tiến và Nga Tân chắc chắn là hai xã mới xuất hiện từ năm 1966.
+2. Danh sách 26 xã của mốc 1982 nhiều khả năng phản ánh cấu trúc đã ổn định sau khi có thêm hai xã này.
+3. Trước năm 1966, rất có thể huyện Nga Sơn chưa có hai xã Nga Tiến và Nga Tân, nhưng kết luận đó vẫn nên gắn nhãn là suy luận hợp lý thay vì xác minh tuyệt đối.
+
 ## Mốc 2: Sau khi tái lập huyện Nga Sơn ngày 30/08/1982
 
 Theo phần lịch sử hành chính được dẫn nguồn từ Quyết định 149-HĐBT năm 1982, sau khi huyện Trung Sơn được chia lại thành Hà Trung và Nga Sơn, huyện Nga Sơn gồm 26 xã:

@@ -1,0 +1,41 @@
+{
+  "historicalUnits": [
+    {"slug":"ba-dinh","name":"Ba Đình","kind":"historical","start":"1982","end":"2025","formedFrom":[],"successors":["xa-ba-dinh-2025"],"milestones":["timeline-1982","timeline-2025"],"searchTerms":["ba dinh","chien khu ba dinh"]},
+    {"slug":"nga-an","name":"Nga An","kind":"historical","start":"1982","end":"2025","formedFrom":[],"successors":["xa-nga-an-2025"],"milestones":["timeline-1982","timeline-2025"],"searchTerms":["nga an","xa nga an cu"]},
+    {"slug":"nga-bach","name":"Nga Bạch","kind":"historical","start":"1982","end":"2024","formedFrom":[],"successors":["nga-hiep","xa-nga-son-2025"],"milestones":["timeline-1982","timeline-2024","timeline-2025"],"searchTerms":["nga bach"]},
+    {"slug":"nga-dien","name":"Nga Điền","kind":"historical","start":"1982","end":"2025","formedFrom":[],"successors":["xa-nga-an-2025"],"milestones":["timeline-1982","timeline-2025"],"searchTerms":["nga dien","vung coi","coi nga son"]},
+    {"slug":"nga-giap","name":"Nga Giáp","kind":"historical","start":"1982","end":"2025","formedFrom":[],"successors":["xa-ho-vuong-2025"],"milestones":["timeline-1982","timeline-2025"],"searchTerms":["nga giap"]},
+    {"slug":"nga-hai","name":"Nga Hải","kind":"historical","start":"1982","end":"2025","formedFrom":[],"successors":["xa-ho-vuong-2025"],"milestones":["timeline-1982","timeline-2025"],"searchTerms":["nga hai"]},
+    {"slug":"nga-hung","name":"Nga Hưng","kind":"historical","start":"1982","end":"2019","formedFrom":[],"successors":["thi-tran-nga-son","xa-nga-son-2025"],"milestones":["timeline-1982","timeline-2019","timeline-2025"],"searchTerms":["nga hung"]},
+    {"slug":"nga-lien","name":"Nga Liên","kind":"historical","start":"1982","end":"2025","formedFrom":[],"successors":["xa-ho-vuong-2025"],"milestones":["timeline-1982","timeline-2025"],"searchTerms":["nga lien"]},
+    {"slug":"nga-linh","name":"Nga Lĩnh","kind":"historical","start":"1982","end":"2019","formedFrom":[],"successors":["nga-phuong","xa-nga-thang-2025"],"milestones":["timeline-1982","timeline-2019","timeline-2025"],"searchTerms":["nga linh"]},
+    {"slug":"nga-my","name":"Nga Mỹ","kind":"historical","start":"1982","end":"2019","formedFrom":[],"successors":["thi-tran-nga-son","xa-nga-son-2025"],"milestones":["timeline-1982","timeline-1988","timeline-2019","timeline-2025"],"searchTerms":["nga my"]},
+    {"slug":"nga-nhan","name":"Nga Nhân","kind":"historical","start":"1982","end":"2019","formedFrom":[],"successors":["nga-phuong","xa-nga-thang-2025"],"milestones":["timeline-1982","timeline-2019","timeline-2025"],"searchTerms":["nga nhan"]},
+    {"slug":"nga-phu","name":"Nga Phú","kind":"historical","start":"1982","end":"2025","formedFrom":[],"successors":["xa-nga-an-2025"],"milestones":["timeline-1982","timeline-2025"],"searchTerms":["nga phu","mai an tiem"]},
+    {"slug":"nga-phuong","name":"Nga Phượng","kind":"intermediate","start":"2019","end":"2025","formedFrom":["nga-linh","nga-nhan"],"successors":["xa-nga-thang-2025"],"milestones":["timeline-2019","timeline-2025"],"searchTerms":["nga phuong","van hoan","huu loan"]},
+    {"slug":"nga-tan","name":"Nga Tân","kind":"historical","start":"1966","end":"2025","formedFrom":[],"successors":["xa-tan-tien-2025"],"milestones":["timeline-1966","timeline-1982","timeline-2025"],"searchTerms":["nga tan","khai hoang"]},
+    {"slug":"nga-thach","name":"Nga Thạch","kind":"historical","start":"1982","end":"2025","formedFrom":[],"successors":["xa-nga-thang-2025"],"milestones":["timeline-1982","timeline-2025"],"searchTerms":["nga thach","mai anh tuan"]},
+    {"slug":"nga-thai","name":"Nga Thái","kind":"historical","start":"1982","end":"2025","formedFrom":[],"successors":["xa-tan-tien-2025"],"milestones":["timeline-1982","timeline-2025"],"searchTerms":["nga thai","vung coi"]},
+    {"slug":"nga-thang","name":"Nga Thắng","kind":"historical","start":"1982","end":"2025","formedFrom":[],"successors":["xa-nga-thang-2025"],"milestones":["timeline-1982","timeline-2025"],"searchTerms":["nga thang"]},
+    {"slug":"nga-thanh","name":"Nga Thanh","kind":"historical","start":"1982","end":"2025","formedFrom":[],"successors":["xa-nga-son-2025"],"milestones":["timeline-1982","timeline-2025"],"searchTerms":["nga thanh","vung coi"]},
+    {"slug":"nga-thanh-commune","name":"Nga Thành","kind":"historical","start":"1982","end":"2025","formedFrom":[],"successors":["xa-ho-vuong-2025"],"milestones":["timeline-1982","timeline-2025"],"searchTerms":["nga thanh xa","nga thanh commune","nga thanh huyen nga son"]},
+    {"slug":"nga-thien","name":"Nga Thiện","kind":"historical","start":"1982","end":"2025","formedFrom":[],"successors":["xa-ba-dinh-2025"],"milestones":["timeline-1982","timeline-2025"],"searchTerms":["nga thien","le thi hoa","tu thuc"]},
+    {"slug":"nga-thuy","name":"Nga Thủy","kind":"historical","start":"1982","end":"2025","formedFrom":[],"successors":["xa-nga-son-2025"],"milestones":["timeline-1982","timeline-2025"],"searchTerms":["nga thuy","vung coi"]},
+    {"slug":"nga-tien","name":"Nga Tiến","kind":"historical","start":"1966","end":"2025","formedFrom":[],"successors":["xa-tan-tien-2025"],"milestones":["timeline-1966","timeline-1982","timeline-2025"],"searchTerms":["nga tien","khai hoang","tan hai","tan an","tan giap","tan thanh"]},
+    {"slug":"nga-trung","name":"Nga Trung","kind":"historical","start":"1982","end":"2024","formedFrom":[],"successors":["nga-hiep","xa-nga-son-2025"],"milestones":["timeline-1982","timeline-2024","timeline-2025"],"searchTerms":["nga trung"]},
+    {"slug":"nga-truong","name":"Nga Trường","kind":"historical","start":"1982","end":"2025","formedFrom":[],"successors":["xa-ba-dinh-2025"],"milestones":["timeline-1982","timeline-2025"],"searchTerms":["nga truong"]},
+    {"slug":"nga-van","name":"Nga Văn","kind":"historical","start":"1982","end":"2025","formedFrom":[],"successors":["xa-nga-thang-2025"],"milestones":["timeline-1982","timeline-2025"],"searchTerms":["nga van"]},
+    {"slug":"nga-vinh","name":"Nga Vịnh","kind":"historical","start":"1982","end":"2025","formedFrom":[],"successors":["xa-ba-dinh-2025"],"milestones":["timeline-1982","timeline-2025"],"searchTerms":["nga vinh"]},
+    {"slug":"nga-yen","name":"Nga Yên","kind":"historical","start":"1982","end":"2025","formedFrom":[],"successors":["thi-tran-nga-son","xa-nga-son-2025"],"milestones":["timeline-1982","timeline-1988","timeline-2025"],"searchTerms":["nga yen"]},
+    {"slug":"thi-tran-nga-son","name":"Thị trấn Nga Sơn","kind":"intermediate","start":"1988","end":"2025","formedFrom":[],"successors":["xa-nga-son-2025"],"milestones":["timeline-1988","timeline-2019","timeline-2025"],"searchTerms":["thi tran nga son","nga son thi tran","huyen ly nga son"]},
+    {"slug":"nga-hiep","name":"Nga Hiệp","kind":"intermediate","start":"2025","end":"2025","formedFrom":["nga-bach","nga-trung"],"successors":["xa-nga-son-2025"],"milestones":["timeline-2024","timeline-2025"],"searchTerms":["nga hiep"]}
+  ],
+  "modernUnits": [
+    {"slug":"xa-nga-son-2025","name":"Xã Nga Sơn","period":"Từ 2025","formedFrom":["thi-tran-nga-son","nga-yen","nga-thanh","nga-hiep","nga-thuy"],"searchTerms":["nga son moi","xa nga son 2025","nga son"]},
+    {"slug":"xa-nga-thang-2025","name":"Xã Nga Thắng","period":"Từ 2025","formedFrom":["nga-van","nga-phuong","nga-thach","nga-thang"],"searchTerms":["xa nga thang moi","nga thang moi"]},
+    {"slug":"xa-ho-vuong-2025","name":"Xã Hồ Vương","period":"Từ 2025","formedFrom":["nga-hai","nga-thanh-commune","nga-giap","nga-lien"],"searchTerms":["ho vuong","xa ho vuong"]},
+    {"slug":"xa-tan-tien-2025","name":"Xã Tân Tiến","period":"Từ 2025","formedFrom":["nga-tien","nga-tan","nga-thai"],"searchTerms":["tan tien","xa tan tien"]},
+    {"slug":"xa-nga-an-2025","name":"Xã Nga An","period":"Từ 2025","formedFrom":["nga-dien","nga-phu","nga-an"],"searchTerms":["nga an moi","xa nga an moi"]},
+    {"slug":"xa-ba-dinh-2025","name":"Xã Ba Đình","period":"Từ 2025","formedFrom":["nga-vinh","nga-truong","nga-thien","ba-dinh"],"searchTerms":["ba dinh moi","xa ba dinh moi"]}
+  ]
+}

@@ -27,8 +27,29 @@
         </div>
       </section>
       <section class="section reveal">
+        <div class="container search-panel">
+          <div class="search-head">
+            <div>
+              <p class="eyebrow">Tra cứu nhanh</p>
+              <h2>Tìm theo xã cũ, xã mới và từ khóa lịch sử</h2>
+            </div>
+            <p class="section-intro">Có thể nhập tên xã cũ như Nga Bạch, Nga Lĩnh, thị trấn Nga Sơn hoặc tên xã mới như Hồ Vương, Tân Tiến, Nga Sơn.</p>
+          </div>
+          <div class="search-bar">
+            <input type="search" placeholder="Ví dụ: Nga Bạch, Hồ Vương, Nga Sơn, 2025..." data-commune-search-input>
+          </div>
+          <div class="search-meta" data-commune-search-meta></div>
+        </div>
+        <div class="container section-head compact-head">
+          <div>
+            <p class="eyebrow">Đơn vị hiện nay</p>
+            <h2>6 xã mới sau sắp xếp 2025</h2>
+          </div>
+        </div>
+        <div class="container card-grid" data-modern-communes-list></div>
         <div class="container stat-row" data-commune-stats></div>
         <div class="container card-grid" data-communes-list></div>
+        <div class="container stack-list" data-commune-search-timeline></div>
       </section>
     </main>
     <footer class="site-footer" data-site-footer></footer>

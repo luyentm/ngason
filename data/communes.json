@@ -1,125 +1,466 @@
 [
   {
-    "id": "commune-seed-01",
-    "slug": "ho-so-xa-cu-dang-bien-tap-01",
-    "name": "Hồ sơ xã cũ đang biên tập 01",
-    "alternateNames": [
-      "Tên gọi cũ đang xác minh",
-      "Biến thể địa danh đang cập nhật"
-    ],
-    "summary": "Mục dữ liệu mẫu để kiểm thử giao diện chi tiết cho một xã cũ trước sáp nhập. Cấu trúc đã sẵn sàng để thay bằng dữ liệu thật khi có nguồn kiểm chứng.",
-    "periodLabel": "Xã cũ trước sáp nhập",
-    "status": "pending",
-    "statusLabel": "Chờ kiểm chứng",
-    "sourceStatus": "Cần bổ sung hồ sơ địa phương và nguồn tư liệu gốc",
-    "featuredImage": "assets/images/commune-placeholder.svg",
-    "relatedPosts": [
-      "khoi-tao-kho-tu-lieu-nga-son"
-    ],
-    "relatedPeople": [
-      "nhan-vat-dang-bien-tap-01"
-    ],
-    "tags": [
-      "địa danh",
-      "hành chính",
-      "ký ức"
-    ],
-    "sections": [
-      {
-        "title": "Tổng quan",
-        "paragraphs": [
-          "Đây là một hồ sơ khởi tạo dành cho mô hình trang xã cũ. Sau khi có danh sách xác minh, tên xã và phần mô tả ngắn sẽ được thay thế trực tiếp trong dữ liệu JSON mà không cần sửa bố cục trang.",
-          "Trang chi tiết được thiết kế để chứa đồng thời lịch sử hành chính, địa danh nổi bật, tư liệu hình ảnh và liên kết sang bài viết hoặc nhân vật liên quan."
-        ]
-      },
-      {
-        "title": "Lịch sử hành chính",
-        "paragraphs": [
-          "Phần này sẽ dùng để ghi các mốc tách nhập, đổi tên, điều chỉnh địa giới hoặc thông tin về đơn vị hành chính cũ liên quan.",
-          "Khi nhập dữ liệu thật, mỗi mốc nên có năm hoặc giai đoạn tương ứng và nếu có thể nên dẫn về một timeline chung."
-        ],
-        "list": [
-          "Thêm năm hoặc giai đoạn cụ thể.",
-          "Ghi rõ nguồn tham khảo.",
-          "Liên kết sang timeline nếu mốc nằm trong thay đổi cấp huyện hoặc cấp xã."
-        ]
-      },
-      {
-        "title": "Ghi chú biên tập",
-        "paragraphs": [
-          "Cấu trúc này đang đóng vai trò placeholder an toàn để bắt đầu làm site mà không bịa thêm dữ liệu lịch sử chưa được xác nhận.",
-          "Khi có dữ liệu thật, chỉ cần thay nội dung ở đây và cập nhật các liên kết chéo ở relatedPosts hoặc relatedPeople."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "commune-seed-02",
-    "slug": "ho-so-xa-cu-dang-bien-tap-02",
-    "name": "Hồ sơ xã cũ đang biên tập 02",
-    "alternateNames": [
-      "Tên cũ đang xác minh"
-    ],
-    "summary": "Một mục seed thứ hai để thể hiện cách website hiển thị nhiều hồ sơ xã và giữ định dạng nhất quán khi dữ liệu mở rộng.",
-    "periodLabel": "Hồ sơ seed",
-    "status": "pending",
-    "statusLabel": "Chờ kiểm chứng",
-    "sourceStatus": "Cần nhập dữ liệu lịch sử và địa danh tiêu biểu",
-    "featuredImage": "assets/images/commune-placeholder.svg",
-    "relatedPosts": [
-      "khung-kiem-chung-tu-lieu"
-    ],
-    "relatedPeople": [],
-    "tags": [
-      "khởi tạo",
-      "schema dữ liệu"
-    ],
-    "sections": [
-      {
-        "title": "Vai trò của hồ sơ seed",
-        "paragraphs": [
-          "Mục này giúp kiểm tra cách card danh sách, trang chi tiết và các khu vực liên kết chéo hoạt động trước khi đưa danh sách xã thật vào dữ liệu.",
-          "Khi có danh sách xác minh, slug và tên hiển thị sẽ được thay trực tiếp trong JSON."
-        ]
-      },
-      {
-        "title": "Dữ liệu nên bổ sung",
-        "paragraphs": [
-          "Hồ sơ xã thật nên có phần mô tả rất ngắn để người dùng lướt nhanh trong danh sách, sau đó mới mở vào nội dung dài.",
-          "Các trường như alternateNames, tags, relatedPosts, relatedPeople giúp site sau này mở rộng sang tìm kiếm và lọc mà không phải thay đổi cấu trúc cốt lõi."
-        ]
-      }
-    ]
-  },
-  {
-    "id": "commune-seed-03",
-    "slug": "ho-so-xa-cu-dang-bien-tap-03",
-    "name": "Hồ sơ xã cũ đang biên tập 03",
+    "id": "ba-dinh",
+    "slug": "ba-dinh",
+    "name": "Ba Đình",
     "alternateNames": [],
-    "summary": "Seed thứ ba được thêm để danh sách trang chủ và trang xã cũ có đủ độ dày trực quan ngay trong giai đoạn dựng nền tảng.",
-    "periodLabel": "Chuẩn bị nhập dữ liệu",
-    "status": "pending",
-    "statusLabel": "Chờ kiểm chứng",
-    "sourceStatus": "Cần bổ sung mô tả, địa danh nổi bật và ảnh liên quan",
+    "summary": "Xã cũ của huyện Nga Sơn, có mặt trong danh sách 26 xã sau năm 1982 và đến năm 2025 trở thành tên của xã mới hình thành từ Ba Đình, Nga Vịnh, Nga Trường và Nga Thiện.",
+    "periodLabel": "Xã lịch sử 1982-2025",
+    "status": "verified",
+    "statusLabel": "Đã xác minh mốc chính",
+    "sourceStatus": "Đối chiếu qua mốc 1982 và Nghị quyết 1686 năm 2025",
     "featuredImage": "assets/images/commune-placeholder.svg",
-    "relatedPosts": [
-      "dong-gop-anh-va-ky-uc"
-    ],
-    "relatedPeople": [
-      "nhan-vat-dang-bien-tap-02"
-    ],
-    "tags": [
-      "tư liệu",
-      "triển khai"
-    ],
-    "sections": [
-      {
-        "title": "Trạng thái hiện tại",
-        "paragraphs": [
-          "Trang xã này đang cho thấy cách hệ thống xử lý một hồ sơ còn ít dữ liệu nhưng vẫn phải hiển thị ổn định và dễ đọc.",
-          "Đó là yêu cầu thực tế vì quá trình nhập tư liệu thường không đồng đều giữa các địa danh."
-        ]
-      }
-    ]
+    "relatedPosts": ["khoi-tao-kho-tu-lieu-nga-son"],
+    "relatedPeople": [],
+    "tags": ["1982", "2025", "xã mới trùng tên"],
+    "sections": [{"title": "Lược sử", "paragraphs": ["Ba Đình là một trong các xã nền của huyện Nga Sơn sau khi huyện được tái lập năm 1982.", "Năm 2025, địa danh này tiếp tục được giữ làm tên cho xã mới sau khi nhập Ba Đình với Nga Vịnh, Nga Trường và Nga Thiện."]}]
+  },
+  {
+    "id": "nga-an",
+    "slug": "nga-an",
+    "name": "Nga An",
+    "alternateNames": [],
+    "summary": "Xã cũ của huyện Nga Sơn, đến năm 2025 nhập với Nga Điền và Nga Phú để tạo thành xã mới Nga An.",
+    "periodLabel": "Xã lịch sử 1982-2025",
+    "status": "verified",
+    "statusLabel": "Đã xác minh mốc chính",
+    "sourceStatus": "Đối chiếu qua mốc 1982 và Nghị quyết 1686 năm 2025",
+    "featuredImage": "assets/images/commune-placeholder.svg",
+    "relatedPosts": ["khoi-tao-kho-tu-lieu-nga-son"],
+    "relatedPeople": [],
+    "tags": ["1982", "2025", "Nga An mới"],
+    "sections": [{"title": "Lược sử", "paragraphs": ["Nga An nằm trong hệ thống xã của huyện Nga Sơn sau năm 1982.", "Từ năm 2025, tên Nga An được giữ lại cho xã mới hình thành từ Nga An, Nga Điền và Nga Phú."]}]
+  },
+  {
+    "id": "nga-bach",
+    "slug": "nga-bach",
+    "name": "Nga Bạch",
+    "alternateNames": [],
+    "summary": "Xã cũ của huyện Nga Sơn, tồn tại đến hết năm 2024 trước khi nhập với Nga Trung thành xã Nga Hiệp từ ngày 01/01/2025.",
+    "periodLabel": "Xã lịch sử 1982-2024",
+    "status": "verified",
+    "statusLabel": "Đã xác minh mốc chính",
+    "sourceStatus": "Đối chiếu qua mốc 1982 và Nghị quyết 1238 năm 2024",
+    "featuredImage": "assets/images/commune-placeholder.svg",
+    "relatedPosts": ["khung-kiem-chung-tu-lieu"],
+    "relatedPeople": [],
+    "tags": ["1982", "2024", "Nga Hiệp"],
+    "sections": [{"title": "Lược sử", "paragraphs": ["Nga Bạch thuộc danh sách 26 xã của huyện Nga Sơn sau khi tái lập năm 1982.", "Theo Nghị quyết 1238/NQ-UBTVQH15, xã này chấm dứt tư cách đơn vị độc lập từ đầu năm 2025 để hợp thành xã Nga Hiệp."]}]
+  },
+  {
+    "id": "nga-dien",
+    "slug": "nga-dien",
+    "name": "Nga Điền",
+    "alternateNames": [],
+    "summary": "Xã cũ của huyện Nga Sơn, thuộc vùng cói ven biển và đến năm 2025 nhập với Nga Phú, Nga An để thành xã mới Nga An.",
+    "periodLabel": "Xã lịch sử 1982-2025",
+    "status": "verified",
+    "statusLabel": "Đã xác minh mốc chính",
+    "sourceStatus": "Đối chiếu qua danh sách xã, tư liệu vùng cói và Nghị quyết 1686 năm 2025",
+    "featuredImage": "assets/images/commune-placeholder.svg",
+    "relatedPosts": ["dong-gop-anh-va-ky-uc"],
+    "relatedPeople": [],
+    "tags": ["vùng cói", "2025", "Nga An mới"],
+    "sections": [{"title": "Lược sử", "paragraphs": ["Nga Điền được biết đến như một trong các xã vùng cói nổi tiếng của Nga Sơn.", "Năm 2025, Nga Điền không còn tồn tại độc lập mà nhập cùng Nga Phú và Nga An để thành xã mới Nga An."]}]
+  },
+  {
+    "id": "nga-giap",
+    "slug": "nga-giap",
+    "name": "Nga Giáp",
+    "alternateNames": [],
+    "summary": "Xã cũ của huyện Nga Sơn, đến năm 2025 hợp cùng Nga Hải, Nga Thành và Nga Liên để thành xã Hồ Vương.",
+    "periodLabel": "Xã lịch sử 1982-2025",
+    "status": "verified",
+    "statusLabel": "Đã xác minh mốc chính",
+    "sourceStatus": "Đối chiếu qua mốc 1982 và Nghị quyết 1686 năm 2025",
+    "featuredImage": "assets/images/commune-placeholder.svg",
+    "relatedPosts": ["khoi-tao-kho-tu-lieu-nga-son"],
+    "relatedPeople": [],
+    "tags": ["2025", "Hồ Vương"],
+    "sections": [{"title": "Lược sử", "paragraphs": ["Nga Giáp là một xã cũ trong hệ thống đơn vị hành chính của huyện Nga Sơn sau 1982.", "Từ năm 2025, xã này trở thành một phần của xã mới Hồ Vương."]}]
+  },
+  {
+    "id": "nga-hai",
+    "slug": "nga-hai",
+    "name": "Nga Hải",
+    "alternateNames": [],
+    "summary": "Xã cũ của huyện Nga Sơn, đến năm 2025 nhập vào xã mới Hồ Vương cùng Nga Thành, Nga Giáp và Nga Liên.",
+    "periodLabel": "Xã lịch sử 1982-2025",
+    "status": "verified",
+    "statusLabel": "Đã xác minh mốc chính",
+    "sourceStatus": "Đối chiếu qua mốc 1982 và Nghị quyết 1686 năm 2025",
+    "featuredImage": "assets/images/commune-placeholder.svg",
+    "relatedPosts": ["dong-gop-anh-va-ky-uc"],
+    "relatedPeople": ["nhan-vat-dang-bien-tap-02"],
+    "tags": ["2025", "Hồ Vương"],
+    "sections": [{"title": "Lược sử", "paragraphs": ["Nga Hải là một địa danh cũ của huyện Nga Sơn, thuộc lớp xã lịch sử trước đợt bỏ cấp huyện.", "Năm 2025, Nga Hải được nhập vào xã Hồ Vương và không còn là đơn vị hành chính độc lập."]}]
+  },
+  {
+    "id": "nga-hung",
+    "slug": "nga-hung",
+    "name": "Nga Hưng",
+    "alternateNames": [],
+    "summary": "Xã cũ của huyện Nga Sơn trong giai đoạn 1982-2019, sau đó sáp nhập vào thị trấn Nga Sơn theo đợt sắp xếp cấp xã năm 2019.",
+    "periodLabel": "Xã lịch sử 1982-2019",
+    "status": "partial",
+    "statusLabel": "Đã xác minh qua nguồn tổng hợp",
+    "sourceStatus": "Mốc 2019 hiện đối chiếu qua nguồn tổng hợp, chưa trích trực tiếp PDF gốc",
+    "featuredImage": "assets/images/commune-placeholder.svg",
+    "relatedPosts": ["khung-kiem-chung-tu-lieu"],
+    "relatedPeople": [],
+    "tags": ["2019", "thị trấn Nga Sơn"],
+    "sections": [{"title": "Lược sử", "paragraphs": ["Nga Hưng thuộc danh sách 26 xã của huyện Nga Sơn sau năm 1982.", "Theo nguồn tổng hợp đã đối chiếu, xã này được nhập vào thị trấn Nga Sơn trong đợt sắp xếp cấp xã năm 2019."]}]
+  },
+  {
+    "id": "nga-lien",
+    "slug": "nga-lien",
+    "name": "Nga Liên",
+    "alternateNames": [],
+    "summary": "Xã cũ của huyện Nga Sơn, đến năm 2025 nhập cùng Nga Hải, Nga Thành và Nga Giáp để tạo thành xã Hồ Vương.",
+    "periodLabel": "Xã lịch sử 1982-2025",
+    "status": "verified",
+    "statusLabel": "Đã xác minh mốc chính",
+    "sourceStatus": "Đối chiếu qua mốc 1982 và Nghị quyết 1686 năm 2025",
+    "featuredImage": "assets/images/commune-placeholder.svg",
+    "relatedPosts": ["khoi-tao-kho-tu-lieu-nga-son"],
+    "relatedPeople": [],
+    "tags": ["2025", "Hồ Vương"],
+    "sections": [{"title": "Lược sử", "paragraphs": ["Nga Liên là một xã cũ trong huyện Nga Sơn sau khi huyện được tái lập năm 1982.", "Từ năm 2025, Nga Liên trở thành một phần của xã mới Hồ Vương."]}]
+  },
+  {
+    "id": "nga-linh",
+    "slug": "nga-linh",
+    "name": "Nga Lĩnh",
+    "alternateNames": [],
+    "summary": "Xã cũ của huyện Nga Sơn trong giai đoạn 1982-2019, sau đó hợp với Nga Nhân để hình thành xã Nga Phượng.",
+    "periodLabel": "Xã lịch sử 1982-2019",
+    "status": "partial",
+    "statusLabel": "Đã xác minh qua nguồn tổng hợp",
+    "sourceStatus": "Mốc 2019 đối chiếu qua nguồn tổng hợp, cần trích trực tiếp Nghị quyết 786",
+    "featuredImage": "assets/images/commune-placeholder.svg",
+    "relatedPosts": ["khung-kiem-chung-tu-lieu"],
+    "relatedPeople": [],
+    "tags": ["2019", "Nga Phượng"],
+    "sections": [{"title": "Lược sử", "paragraphs": ["Nga Lĩnh là một xã cũ trong danh sách hành chính của huyện Nga Sơn sau năm 1982.", "Đến năm 2019, xã này được hợp với Nga Nhân để hình thành xã Nga Phượng."]}]
+  },
+  {
+    "id": "nga-my",
+    "slug": "nga-my",
+    "name": "Nga Mỹ",
+    "alternateNames": [],
+    "summary": "Xã cũ của huyện Nga Sơn, từng góp một phần để thành lập thị trấn Nga Sơn năm 1988 và sau đó sáp nhập toàn bộ vào thị trấn trong đợt năm 2019.",
+    "periodLabel": "Xã lịch sử 1982-2019",
+    "status": "partial",
+    "statusLabel": "Đã xác minh phần lớn",
+    "sourceStatus": "Mốc 1988 xác minh cao, mốc 2019 hiện đối chiếu qua nguồn tổng hợp",
+    "featuredImage": "assets/images/commune-placeholder.svg",
+    "relatedPosts": ["khung-kiem-chung-tu-lieu"],
+    "relatedPeople": [],
+    "tags": ["1988", "2019", "thị trấn Nga Sơn"],
+    "sections": [{"title": "Lược sử", "paragraphs": ["Nga Mỹ là một xã cũ có vai trò đặc biệt trong lịch sử thị trấn Nga Sơn vì một phần xã được dùng để lập thị trấn năm 1988.", "Theo đợt sắp xếp năm 2019, Nga Mỹ tiếp tục sáp nhập toàn bộ vào thị trấn Nga Sơn."]}]
+  },
+  {
+    "id": "nga-nhan",
+    "slug": "nga-nhan",
+    "name": "Nga Nhân",
+    "alternateNames": [],
+    "summary": "Xã cũ của huyện Nga Sơn, sau năm 2019 hợp với Nga Lĩnh để hình thành xã Nga Phượng.",
+    "periodLabel": "Xã lịch sử 1982-2019",
+    "status": "partial",
+    "statusLabel": "Đã xác minh qua nguồn tổng hợp",
+    "sourceStatus": "Mốc 2019 đối chiếu qua nguồn tổng hợp, cần thêm dẫn nguồn cấp một",
+    "featuredImage": "assets/images/commune-placeholder.svg",
+    "relatedPosts": ["khung-kiem-chung-tu-lieu"],
+    "relatedPeople": [],
+    "tags": ["2019", "Nga Phượng"],
+    "sections": [{"title": "Lược sử", "paragraphs": ["Nga Nhân là một xã cũ trong huyện Nga Sơn sau mốc tái lập năm 1982.", "Từ năm 2019, Nga Nhân không còn tồn tại độc lập mà trở thành một nửa nguồn gốc của xã Nga Phượng."]}]
+  },
+  {
+    "id": "nga-phu",
+    "slug": "nga-phu",
+    "name": "Nga Phú",
+    "alternateNames": [],
+    "summary": "Xã cũ của huyện Nga Sơn, gắn với đền thờ Mai An Tiêm và đến năm 2025 nhập cùng Nga Điền, Nga An để tạo thành xã mới Nga An.",
+    "periodLabel": "Xã lịch sử 1982-2025",
+    "status": "verified",
+    "statusLabel": "Đã xác minh mốc chính",
+    "sourceStatus": "Đối chiếu qua danh sách 1982, tư liệu địa danh và Nghị quyết 1686 năm 2025",
+    "featuredImage": "assets/images/commune-placeholder.svg",
+    "relatedPosts": ["dong-gop-anh-va-ky-uc"],
+    "relatedPeople": [],
+    "tags": ["Mai An Tiêm", "2025", "Nga An mới"],
+    "sections": [{"title": "Lược sử", "paragraphs": ["Nga Phú là một địa danh nổi bật của Nga Sơn vì gắn với đền thờ Mai An Tiêm trong nguồn tổng hợp về di tích địa phương.", "Năm 2025, xã này nhập cùng Nga Điền và Nga An để thành xã mới Nga An."]}]
+  },
+  {
+    "id": "nga-phuong",
+    "slug": "nga-phuong",
+    "name": "Nga Phượng",
+    "alternateNames": ["Hình thành từ Nga Lĩnh và Nga Nhân"],
+    "summary": "Xã được thành lập trong đợt sắp xếp năm 2019 trên cơ sở hợp nhất Nga Lĩnh và Nga Nhân, đến năm 2025 tiếp tục nhập vào xã mới Nga Thắng.",
+    "periodLabel": "Xã lịch sử 2019-2025",
+    "status": "partial",
+    "statusLabel": "Đã xác minh phần lớn",
+    "sourceStatus": "Mốc 2019 đang dựa trên nguồn tổng hợp; mốc 2025 đã xác minh bằng Nghị quyết 1686",
+    "featuredImage": "assets/images/commune-placeholder.svg",
+    "relatedPosts": ["khoi-tao-kho-tu-lieu-nga-son"],
+    "relatedPeople": [],
+    "tags": ["2019", "2025", "xã trung gian"],
+    "sections": [{"title": "Lược sử", "paragraphs": ["Nga Phượng là xã mới hơn so với phần lớn các xã nền của huyện Nga Sơn vì chỉ xuất hiện từ đợt sắp xếp năm 2019.", "Đến năm 2025, Nga Phượng lại tiếp tục được nhập cùng Nga Văn, Nga Thạch và Nga Thắng để hình thành xã mới Nga Thắng."]}]
+  },
+  {
+    "id": "nga-tan",
+    "slug": "nga-tan",
+    "name": "Nga Tân",
+    "alternateNames": [],
+    "summary": "Xã được thành lập năm 1966 trong vùng khai hoang ven biển của Nga Sơn, tồn tại đến năm 2025 trước khi nhập với Nga Tiến và Nga Thái thành xã Tân Tiến.",
+    "periodLabel": "Xã lịch sử 1966-2025",
+    "status": "verified",
+    "statusLabel": "Đã xác minh mốc chính",
+    "sourceStatus": "Đã xác minh mốc 1966 qua Quyết định 73-NV; mốc 2025 qua Nghị quyết 1686",
+    "featuredImage": "assets/images/commune-placeholder.svg",
+    "relatedPosts": ["dong-gop-anh-va-ky-uc"],
+    "relatedPeople": [],
+    "tags": ["1966", "khai hoang", "Tân Tiến"],
+    "sections": [{"title": "Lược sử", "paragraphs": ["Nga Tân là một trong hai xã mới được thành lập theo Quyết định 73-NV ngày 17/03/1966 trong vùng kinh tế mới ven biển của Nga Sơn.", "Xã này tồn tại qua nhiều giai đoạn hành chính cho đến năm 2025, khi nhập với Nga Tiến và Nga Thái để tạo thành xã Tân Tiến."]}]
+  },
+  {
+    "id": "nga-thach",
+    "slug": "nga-thach",
+    "name": "Nga Thạch",
+    "alternateNames": [],
+    "summary": "Xã cũ của huyện Nga Sơn, đến năm 2025 nhập với Nga Văn, Nga Phượng và Nga Thắng để thành xã mới Nga Thắng.",
+    "periodLabel": "Xã lịch sử 1982-2025",
+    "status": "verified",
+    "statusLabel": "Đã xác minh mốc chính",
+    "sourceStatus": "Đối chiếu qua mốc 1982 và Nghị quyết 1686 năm 2025",
+    "featuredImage": "assets/images/commune-placeholder.svg",
+    "relatedPosts": ["khoi-tao-kho-tu-lieu-nga-son"],
+    "relatedPeople": [],
+    "tags": ["2025", "Nga Thắng mới"],
+    "sections": [{"title": "Lược sử", "paragraphs": ["Nga Thạch là một xã lịch sử của huyện Nga Sơn, có mặt trong danh sách 26 xã sau năm 1982.", "Từ năm 2025, xã này trở thành một phần của xã mới Nga Thắng."]}]
+  },
+  {
+    "id": "nga-thai",
+    "slug": "nga-thai",
+    "name": "Nga Thái",
+    "alternateNames": [],
+    "summary": "Xã cũ của huyện Nga Sơn, thuộc nhóm xã vùng cói và đến năm 2025 nhập với Nga Tiến, Nga Tân để hình thành xã mới Tân Tiến.",
+    "periodLabel": "Xã lịch sử 1982-2025",
+    "status": "verified",
+    "statusLabel": "Đã xác minh mốc chính",
+    "sourceStatus": "Đối chiếu qua tư liệu vùng cói và Nghị quyết 1686 năm 2025",
+    "featuredImage": "assets/images/commune-placeholder.svg",
+    "relatedPosts": ["dong-gop-anh-va-ky-uc"],
+    "relatedPeople": [],
+    "tags": ["vùng cói", "2025", "Tân Tiến"],
+    "sections": [{"title": "Lược sử", "paragraphs": ["Nga Thái được nhắc đến trong nhóm xã vùng cói nổi tiếng của Nga Sơn.", "Theo đợt sắp xếp năm 2025, Nga Thái nhập cùng Nga Tiến và Nga Tân để thành xã mới Tân Tiến."]}]
+  },
+  {
+    "id": "nga-thang",
+    "slug": "nga-thang",
+    "name": "Nga Thắng",
+    "alternateNames": ["Tên cũ trước xã mới 2025"],
+    "summary": "Xã cũ của huyện Nga Sơn, đến năm 2025 trở thành một phần của xã mới cùng tên hình thành từ Nga Thắng, Nga Thạch, Nga Văn và Nga Phượng.",
+    "periodLabel": "Xã lịch sử 1982-2025",
+    "status": "verified",
+    "statusLabel": "Đã xác minh mốc chính",
+    "sourceStatus": "Đối chiếu qua mốc 1982 và Nghị quyết 1686 năm 2025",
+    "featuredImage": "assets/images/commune-placeholder.svg",
+    "relatedPosts": ["khoi-tao-kho-tu-lieu-nga-son"],
+    "relatedPeople": [],
+    "tags": ["2025", "xã mới trùng tên"],
+    "sections": [{"title": "Lược sử", "paragraphs": ["Nga Thắng là một xã cũ của huyện Nga Sơn trước đợt sắp xếp năm 2025.", "Điểm cần lưu ý là tên Nga Thắng tiếp tục được giữ lại cho xã mới sau khi nhập thêm Nga Văn, Nga Thạch và Nga Phượng."]}]
+  },
+  {
+    "id": "nga-thanh",
+    "slug": "nga-thanh",
+    "name": "Nga Thanh",
+    "alternateNames": [],
+    "summary": "Xã cũ của huyện Nga Sơn, thuộc nhóm xã vùng cói và đến năm 2025 nhập với thị trấn Nga Sơn, Nga Yên, Nga Hiệp, Nga Thủy để thành xã mới Nga Sơn.",
+    "periodLabel": "Xã lịch sử 1982-2025",
+    "status": "verified",
+    "statusLabel": "Đã xác minh mốc chính",
+    "sourceStatus": "Đối chiếu qua tư liệu vùng cói và Nghị quyết 1686 năm 2025",
+    "featuredImage": "assets/images/commune-placeholder.svg",
+    "relatedPosts": ["dong-gop-anh-va-ky-uc"],
+    "relatedPeople": [],
+    "tags": ["vùng cói", "2025", "Nga Sơn mới"],
+    "sections": [{"title": "Lược sử", "paragraphs": ["Nga Thanh là một trong các xã vùng cói của Nga Sơn, gắn với sinh kế và ký ức nghề chiếu cói.", "Từ năm 2025, Nga Thanh nhập vào xã mới Nga Sơn cùng thị trấn Nga Sơn, Nga Yên, Nga Hiệp và Nga Thủy."]}]
+  },
+  {
+    "id": "nga-thanh-commune",
+    "slug": "nga-thanhh",
+    "name": "Nga Thành",
+    "alternateNames": [],
+    "summary": "Xã cũ của huyện Nga Sơn, đến năm 2025 nhập với Nga Hải, Nga Giáp và Nga Liên để thành xã Hồ Vương.",
+    "periodLabel": "Xã lịch sử 1982-2025",
+    "status": "verified",
+    "statusLabel": "Đã xác minh mốc chính",
+    "sourceStatus": "Đối chiếu qua mốc 1982 và Nghị quyết 1686 năm 2025",
+    "featuredImage": "assets/images/commune-placeholder.svg",
+    "relatedPosts": ["khoi-tao-kho-tu-lieu-nga-son"],
+    "relatedPeople": [],
+    "tags": ["2025", "Hồ Vương"],
+    "sections": [{"title": "Lược sử", "paragraphs": ["Nga Thành là một xã cũ của huyện Nga Sơn trong suốt giai đoạn trước khi bỏ cấp huyện.", "Năm 2025, Nga Thành được nhập vào xã mới Hồ Vương cùng ba xã cũ khác của khu vực này."]}]
+  },
+  {
+    "id": "nga-thien",
+    "slug": "nga-thien",
+    "name": "Nga Thiện",
+    "alternateNames": [],
+    "summary": "Xã cũ của huyện Nga Sơn, gắn với đền thờ Lê Thị Hoa và động Từ Thức theo nguồn tổng hợp; đến năm 2025 nhập vào xã mới Ba Đình.",
+    "periodLabel": "Xã lịch sử 1982-2025",
+    "status": "verified",
+    "statusLabel": "Đã xác minh mốc chính",
+    "sourceStatus": "Đối chiếu qua mốc 1982, nguồn tổng hợp di tích và Nghị quyết 1686 năm 2025",
+    "featuredImage": "assets/images/commune-placeholder.svg",
+    "relatedPosts": ["dong-gop-anh-va-ky-uc"],
+    "relatedPeople": [],
+    "tags": ["Lê Thị Hoa", "Từ Thức", "2025"],
+    "sections": [{"title": "Lược sử", "paragraphs": ["Nga Thiện là một địa danh giàu chất liệu lịch sử và truyền thuyết trong không gian văn hóa Nga Sơn.", "Năm 2025, xã này được nhập với Ba Đình, Nga Vịnh và Nga Trường để thành xã mới Ba Đình."]}]
+  },
+  {
+    "id": "nga-thuy",
+    "slug": "nga-thuy",
+    "name": "Nga Thủy",
+    "alternateNames": [],
+    "summary": "Xã cũ của huyện Nga Sơn, thuộc nhóm xã vùng cói và đến năm 2025 nhập vào xã mới Nga Sơn.",
+    "periodLabel": "Xã lịch sử 1982-2025",
+    "status": "verified",
+    "statusLabel": "Đã xác minh mốc chính",
+    "sourceStatus": "Đối chiếu qua tư liệu vùng cói và Nghị quyết 1686 năm 2025",
+    "featuredImage": "assets/images/commune-placeholder.svg",
+    "relatedPosts": ["dong-gop-anh-va-ky-uc"],
+    "relatedPeople": [],
+    "tags": ["vùng cói", "2025", "Nga Sơn mới"],
+    "sections": [{"title": "Lược sử", "paragraphs": ["Nga Thủy là một trong các xã được nhắc tới trong không gian nghề cói của huyện Nga Sơn.", "Từ năm 2025, Nga Thủy trở thành một phần của xã mới Nga Sơn."]}]
+  },
+  {
+    "id": "nga-tien",
+    "slug": "nga-tien",
+    "name": "Nga Tiến",
+    "alternateNames": [],
+    "summary": "Xã được thành lập năm 1966 trong vùng khai hoang ven biển của Nga Sơn, đến năm 2025 nhập với Nga Tân và Nga Thái để thành xã Tân Tiến.",
+    "periodLabel": "Xã lịch sử 1966-2025",
+    "status": "verified",
+    "statusLabel": "Đã xác minh mốc chính",
+    "sourceStatus": "Xác minh qua Quyết định 73-NV, bài xã Nga Tiến và Nghị quyết 1686 năm 2025",
+    "featuredImage": "assets/images/commune-placeholder.svg",
+    "relatedPosts": ["dong-gop-anh-va-ky-uc"],
+    "relatedPeople": [],
+    "tags": ["1966", "khai hoang", "Tân Tiến"],
+    "sections": [{"title": "Lược sử", "paragraphs": ["Nga Tiến là xã mới được thành lập năm 1966 từ không gian khai hoang ven biển của Nga Sơn và được nguồn tổng hợp xác nhận rất rõ.", "Đến năm 2025, xã này cùng Nga Tân và Nga Thái hợp lại thành xã mới Tân Tiến."]}]
+  },
+  {
+    "id": "nga-trung",
+    "slug": "nga-trung",
+    "name": "Nga Trung",
+    "alternateNames": [],
+    "summary": "Xã cũ của huyện Nga Sơn, tồn tại đến hết năm 2024 trước khi nhập với Nga Bạch để thành xã Nga Hiệp từ đầu năm 2025.",
+    "periodLabel": "Xã lịch sử 1982-2024",
+    "status": "verified",
+    "statusLabel": "Đã xác minh mốc chính",
+    "sourceStatus": "Đối chiếu qua mốc 1982 và Nghị quyết 1238 năm 2024",
+    "featuredImage": "assets/images/commune-placeholder.svg",
+    "relatedPosts": ["khung-kiem-chung-tu-lieu"],
+    "relatedPeople": [],
+    "tags": ["2024", "Nga Hiệp"],
+    "sections": [{"title": "Lược sử", "paragraphs": ["Nga Trung là một xã cũ của huyện Nga Sơn trong hệ thống 26 xã sau mốc tái lập năm 1982.", "Năm 2024, xã này được quyết định nhập với Nga Bạch để thành lập xã Nga Hiệp, có hiệu lực từ đầu năm 2025."]}]
+  },
+  {
+    "id": "nga-truong",
+    "slug": "nga-truong",
+    "name": "Nga Trường",
+    "alternateNames": [],
+    "summary": "Xã cũ của huyện Nga Sơn, đến năm 2025 nhập với Ba Đình, Nga Vịnh và Nga Thiện để tạo thành xã mới Ba Đình.",
+    "periodLabel": "Xã lịch sử 1982-2025",
+    "status": "verified",
+    "statusLabel": "Đã xác minh mốc chính",
+    "sourceStatus": "Đối chiếu qua mốc 1982 và Nghị quyết 1686 năm 2025",
+    "featuredImage": "assets/images/commune-placeholder.svg",
+    "relatedPosts": ["khoi-tao-kho-tu-lieu-nga-son"],
+    "relatedPeople": [],
+    "tags": ["2025", "Ba Đình mới"],
+    "sections": [{"title": "Lược sử", "paragraphs": ["Nga Trường là một xã cũ của huyện Nga Sơn trước đợt tổ chức lại cấp xã năm 2025.", "Từ năm 2025, xã này nhập vào xã mới Ba Đình cùng với Ba Đình, Nga Vịnh và Nga Thiện."]}]
+  },
+  {
+    "id": "nga-van",
+    "slug": "nga-van",
+    "name": "Nga Văn",
+    "alternateNames": [],
+    "summary": "Xã cũ của huyện Nga Sơn, đến năm 2025 nhập với Nga Phượng, Nga Thạch và Nga Thắng để thành xã mới Nga Thắng.",
+    "periodLabel": "Xã lịch sử 1982-2025",
+    "status": "verified",
+    "statusLabel": "Đã xác minh mốc chính",
+    "sourceStatus": "Đối chiếu qua mốc 1982 và Nghị quyết 1686 năm 2025",
+    "featuredImage": "assets/images/commune-placeholder.svg",
+    "relatedPosts": ["khoi-tao-kho-tu-lieu-nga-son"],
+    "relatedPeople": [],
+    "tags": ["2025", "Nga Thắng mới"],
+    "sections": [{"title": "Lược sử", "paragraphs": ["Nga Văn là một xã cũ trong cấu trúc hành chính của huyện Nga Sơn sau năm 1982.", "Năm 2025, xã này được nhập cùng Nga Phượng, Nga Thạch và Nga Thắng để hình thành xã mới Nga Thắng."]}]
+  },
+  {
+    "id": "nga-vinh",
+    "slug": "nga-vinh",
+    "name": "Nga Vịnh",
+    "alternateNames": [],
+    "summary": "Xã cũ của huyện Nga Sơn, đến năm 2025 nhập với Ba Đình, Nga Trường và Nga Thiện để thành xã mới Ba Đình.",
+    "periodLabel": "Xã lịch sử 1982-2025",
+    "status": "verified",
+    "statusLabel": "Đã xác minh mốc chính",
+    "sourceStatus": "Đối chiếu qua mốc 1982 và Nghị quyết 1686 năm 2025",
+    "featuredImage": "assets/images/commune-placeholder.svg",
+    "relatedPosts": ["khoi-tao-kho-tu-lieu-nga-son"],
+    "relatedPeople": [],
+    "tags": ["2025", "Ba Đình mới"],
+    "sections": [{"title": "Lược sử", "paragraphs": ["Nga Vịnh là một xã cũ của huyện Nga Sơn trước đợt tổ chức lại cấp xã năm 2025.", "Từ năm 2025, Nga Vịnh trở thành một phần của xã mới Ba Đình."]}]
+  },
+  {
+    "id": "nga-yen",
+    "slug": "nga-yen",
+    "name": "Nga Yên",
+    "alternateNames": [],
+    "summary": "Xã cũ của huyện Nga Sơn, từng góp một phần để lập thị trấn Nga Sơn năm 1988 và đến năm 2025 nhập vào xã mới Nga Sơn.",
+    "periodLabel": "Xã lịch sử 1982-2025",
+    "status": "verified",
+    "statusLabel": "Đã xác minh mốc chính",
+    "sourceStatus": "Mốc 1988 xác minh cao, mốc 2025 xác minh theo Nghị quyết 1686",
+    "featuredImage": "assets/images/commune-placeholder.svg",
+    "relatedPosts": ["khung-kiem-chung-tu-lieu"],
+    "relatedPeople": [],
+    "tags": ["1988", "2025", "Nga Sơn mới"],
+    "sections": [{"title": "Lược sử", "paragraphs": ["Nga Yên là xã cũ của huyện Nga Sơn và từng góp một phần diện tích, dân số để lập thị trấn Nga Sơn năm 1988.", "Đến năm 2025, Nga Yên nhập cùng thị trấn Nga Sơn, Nga Thanh, Nga Hiệp và Nga Thủy để thành xã mới Nga Sơn."]}]
+  },
+  {
+    "id": "thi-tran-nga-son",
+    "slug": "thi-tran-nga-son",
+    "name": "Thị trấn Nga Sơn",
+    "alternateNames": ["Huyện lỵ cũ của Nga Sơn"],
+    "summary": "Thị trấn huyện lỵ được thành lập năm 1988 từ một phần Nga Mỹ và Nga Yên, mở rộng năm 2019 khi nhập thêm Nga Mỹ và Nga Hưng, và đến năm 2025 nhập vào xã mới Nga Sơn.",
+    "periodLabel": "Thị trấn lịch sử 1988-2025",
+    "status": "verified",
+    "statusLabel": "Đã xác minh mốc chính",
+    "sourceStatus": "Mốc 1988 xác minh cao, mốc 2019 đối chiếu qua nguồn tổng hợp, mốc 2025 xác minh cao",
+    "featuredImage": "assets/images/commune-placeholder.svg",
+    "relatedPosts": ["khoi-tao-kho-tu-lieu-nga-son"],
+    "relatedPeople": ["nhan-vat-dang-bien-tap-01"],
+    "tags": ["1988", "2019", "2025", "huyện lỵ"],
+    "sections": [{"title": "Lược sử", "paragraphs": ["Thị trấn Nga Sơn được thành lập ngày 23/12/1988 trên cơ sở một phần diện tích và dân số của hai xã Nga Mỹ và Nga Yên.", "Sau khi mở rộng thêm trong đợt năm 2019, thị trấn này chấm dứt tư cách đơn vị độc lập vào năm 2025 để hợp thành xã mới Nga Sơn."]}]
+  },
+  {
+    "id": "nga-hiep",
+    "slug": "nga-hiep",
+    "name": "Nga Hiệp",
+    "alternateNames": ["Hình thành từ Nga Bạch và Nga Trung"],
+    "summary": "Xã trung gian được thành lập từ ngày 01/01/2025 trên cơ sở sáp nhập Nga Bạch và Nga Trung, sau đó tiếp tục nhập vào xã mới Nga Sơn trong năm 2025.",
+    "periodLabel": "Xã trung gian năm 2025",
+    "status": "verified",
+    "statusLabel": "Đã xác minh mốc chính",
+    "sourceStatus": "Đối chiếu qua Nghị quyết 1238 năm 2024 và Nghị quyết 1686 năm 2025",
+    "featuredImage": "assets/images/commune-placeholder.svg",
+    "relatedPosts": ["khung-kiem-chung-tu-lieu"],
+    "relatedPeople": [],
+    "tags": ["2025", "xã trung gian", "Nga Sơn mới"],
+    "sections": [{"title": "Lược sử", "paragraphs": ["Nga Hiệp là xã mới được thành lập từ ngày 01/01/2025 trên cơ sở nhập toàn bộ Nga Bạch và Nga Trung.", "Chỉ ít tháng sau, trong đợt sắp xếp cấp xã năm 2025, Nga Hiệp tiếp tục được nhập vào xã mới Nga Sơn."]}]
   }
 ]

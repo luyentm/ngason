@@ -1,31 +1,50 @@
 [
   {
-    "id": "timeline-01",
-    "period": "Mốc 01",
-    "title": "Khung mốc sáp nhập đang chờ xác minh",
-    "summary": "Một mục timeline mẫu để dựng format năm, mô tả thay đổi hành chính và liên kết tới các xã cũ liên quan.",
-    "statusLabel": "Chờ tư liệu",
-    "relatedCommunes": [
-      "Hồ sơ xã cũ đang biên tập 01",
-      "Hồ sơ xã cũ đang biên tập 02"
-    ]
+    "id": "timeline-1966",
+    "period": "17/03/1966",
+    "title": "Thành lập hai xã mới vùng khai hoang ven biển",
+    "summary": "Theo Quyết định 73-NV, huyện Nga Sơn có thêm hai xã mới là Nga Tiến và Nga Tân. Đây là mốc chắc chắn đầu tiên xác nhận sự xuất hiện của hai địa danh này trong hệ thống hành chính huyện.",
+    "statusLabel": "Đã xác minh văn bản",
+    "relatedCommunes": ["Nga Tiến", "Nga Tân"]
   },
   {
-    "id": "timeline-02",
-    "period": "Mốc 02",
-    "title": "Chuẩn bị liên kết quyết định hành chính và địa danh",
-    "summary": "Khi có dữ liệu thật, mỗi mốc nên trỏ ngược lại hồ sơ xã, bài viết giải thích và nguồn tham khảo để tránh timeline chỉ là một danh sách rời rạc.",
-    "statusLabel": "Đang biên tập",
-    "relatedCommunes": [
-      "Hồ sơ xã cũ đang biên tập 03"
-    ]
+    "id": "timeline-1982",
+    "period": "30/08/1982",
+    "title": "Tái lập huyện Nga Sơn với 26 xã",
+    "summary": "Sau khi huyện Trung Sơn được chia lại thành hai huyện Hà Trung và Nga Sơn, huyện Nga Sơn được ghi nhận có 26 xã. Đây là lớp xã nền quan trọng để dựng toàn bộ lịch sử biến động về sau.",
+    "statusLabel": "Đã xác minh mốc chính",
+    "relatedCommunes": ["Ba Đình", "Nga An", "Nga Bạch", "Nga Điền", "Nga Giáp", "Nga Hải", "Nga Hưng", "Nga Liên", "Nga Lĩnh", "Nga Mỹ", "Nga Nhân", "Nga Phú", "Nga Tân", "Nga Thạch", "Nga Thái", "Nga Thắng", "Nga Thanh", "Nga Thành", "Nga Thiện", "Nga Thủy", "Nga Tiến", "Nga Trung", "Nga Trường", "Nga Văn", "Nga Vịnh", "Nga Yên"]
   },
   {
-    "id": "timeline-03",
-    "period": "Mốc 03",
-    "title": "Giai đoạn đưa dữ liệu kiểm chứng vào timeline",
-    "summary": "Mục seed thứ ba để kiểm tra độ dài trang timeline và nhịp trình bày trên mobile trước khi có số lượng mốc thực tế nhiều hơn.",
-    "statusLabel": "Seed dữ liệu",
-    "relatedCommunes": []
+    "id": "timeline-1988",
+    "period": "23/12/1988",
+    "title": "Thành lập thị trấn Nga Sơn",
+    "summary": "Thị trấn Nga Sơn, tức thị trấn huyện lỵ, được thành lập trên cơ sở một phần diện tích và dân số của hai xã Nga Mỹ và Nga Yên. Đây là mốc mở đầu cho lớp dữ liệu về thị trấn Nga Sơn trong website.",
+    "statusLabel": "Đã xác minh văn bản",
+    "relatedCommunes": ["Thị trấn Nga Sơn", "Nga Mỹ", "Nga Yên"]
+  },
+  {
+    "id": "timeline-2019",
+    "period": "01/12/2019",
+    "title": "Sắp xếp cấp xã: mở rộng thị trấn và lập xã Nga Phượng",
+    "summary": "Theo nguồn tổng hợp đã đối chiếu, Nga Mỹ và Nga Hưng được sáp nhập vào thị trấn Nga Sơn, đồng thời Nga Lĩnh và Nga Nhân hợp nhất thành xã Nga Phượng. Mốc này làm thay đổi rõ cách tra cứu địa danh quen thuộc của người dân Nga Sơn.",
+    "statusLabel": "Đối chiếu qua nguồn tổng hợp",
+    "relatedCommunes": ["Nga Mỹ", "Nga Hưng", "Thị trấn Nga Sơn", "Nga Lĩnh", "Nga Nhân", "Nga Phượng"]
+  },
+  {
+    "id": "timeline-2024",
+    "period": "01/01/2025",
+    "title": "Thành lập xã Nga Hiệp",
+    "summary": "Theo Nghị quyết 1238/NQ-UBTVQH15, xã Nga Hiệp được thành lập trên cơ sở nhập toàn bộ xã Nga Bạch và xã Nga Trung. Sau mốc này, huyện Nga Sơn có 22 xã và 1 thị trấn.",
+    "statusLabel": "Đã xác minh văn bản",
+    "relatedCommunes": ["Nga Bạch", "Nga Trung", "Nga Hiệp"]
+  },
+  {
+    "id": "timeline-2025",
+    "period": "16/06/2025",
+    "title": "Bỏ cấp huyện và tổ chức lại khu vực Nga Sơn thành 6 xã mới",
+    "summary": "Theo Nghị quyết 1686/NQ-UBTVQH15, huyện Nga Sơn bị giải thể. Toàn bộ khu vực Nga Sơn cũ được tổ chức lại thành 6 xã mới: Nga Sơn, Nga Thắng, Hồ Vương, Tân Tiến, Nga An và Ba Đình.",
+    "statusLabel": "Đã xác minh văn bản",
+    "relatedCommunes": ["Nga Sơn", "Nga Thắng", "Hồ Vương", "Tân Tiến", "Nga An", "Ba Đình"]
   }
 ]

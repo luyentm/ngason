@@ -37,6 +37,7 @@
     findBySlug,
     getSite: () => loadJson("/data/site.json"),
     getCommunes: () => loadJson("/data/communes.json"),
+    getCommuneRelations: () => loadJson("/data/commune-relations.json"),
     getTimeline: () => loadJson("/data/timeline.json"),
     getPeople: () => loadJson("/data/people.json"),
     getPosts: () => loadJson("/data/posts.json"),

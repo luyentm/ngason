@@ -314,6 +314,51 @@ select {
   padding: 0 0 1.5rem;
 }
 
+.search-panel {
+  margin-bottom: 1.5rem;
+  padding: 1.3rem;
+  background: rgba(255, 250, 241, 0.8);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+}
+
+.search-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.compact-head {
+  margin-top: 1.25rem;
+}
+
+.compact-panel {
+  margin-bottom: 1.25rem;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 1rem 1.1rem;
+  border-radius: 18px;
+  border: 1px solid rgba(29, 43, 42, 0.12);
+  background: rgba(255, 252, 245, 0.92);
+  color: var(--ink);
+}
+
+.search-bar input:focus {
+  outline: 2px solid rgba(138, 75, 45, 0.22);
+  border-color: rgba(138, 75, 45, 0.35);
+}
+
+.search-meta {
+  margin-top: 0.85rem;
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+}
+
 .notice-list {
   display: grid;
   gap: 0.8rem;
@@ -604,5 +649,10 @@ select {
   .nav-links {
     width: 100%;
     justify-content: flex-start;
+  }
+
+  .search-head {
+    flex-direction: column;
+    align-items: start;
   }
 }

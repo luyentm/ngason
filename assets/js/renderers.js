@@ -116,6 +116,29 @@
     `;
   }
 
+  function renderModernUnitCard(item, formedFromNames) {
+    return `
+      <article class="card reveal is-visible">
+        <div class="card-meta">
+          ${renderBadge(item.period)}
+          ${renderBadge("Xã hiện nay", "badge-neutral")}
+        </div>
+        <h3>${escapeHtml(item.name)}</h3>
+        <p>Hình thành từ: ${escapeHtml(formedFromNames.join(", "))}</p>
+      </article>
+    `;
+  }
+
+  function renderInfoCard(title, body, badges = []) {
+    return `
+      <article class="stack-card reveal is-visible">
+        <div class="stack-meta">${badges.join("")}</div>
+        <h3>${escapeHtml(title)}</h3>
+        <p>${escapeHtml(body)}</p>
+      </article>
+    `;
+  }
+
   function renderDetailHero(item, type, basePath) {
     const subtitle = type === "commune"
       ? item.periodLabel
@@ -174,6 +197,8 @@
     renderTimelineItem,
     renderGalleryCard,
     renderStatCard,
+    renderModernUnitCard,
+    renderInfoCard,
     renderDetailHero,
     renderKeyValueList,
     renderRichSections

@@ -57,6 +57,14 @@
   font-weight: 700;
 }
 
+.inline-links span {
+  padding: 0.45rem 0.7rem;
+  border-radius: 999px;
+  background: rgba(51, 93, 84, 0.1);
+  color: var(--forest);
+  font-weight: 700;
+}
+
 .gallery-card button {
   width: 100%;
   margin-top: 0.85rem;
