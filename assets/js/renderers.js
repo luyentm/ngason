@@ -72,9 +72,11 @@
     `;
   }
 
-  function renderTimelineItem(item, linkedNames) {
-    const links = linkedNames.length
-      ? `<div class="inline-links">${linkedNames.map((name) => `<span>${escapeHtml(name)}</span>`).join("")}</div>`
+  function renderTimelineItem(item, linkedItems) {
+    const links = linkedItems.length
+      ? `<div class="inline-links">${linkedItems.map((entry) => entry.href
+        ? `<a href="${escapeHtml(entry.href)}">${escapeHtml(entry.name)}</a>`
+        : `<span>${escapeHtml(entry.name)}</span>`).join("")}</div>`
       : "";
 
     return `
@@ -125,6 +127,7 @@
         </div>
         <h3>${escapeHtml(item.name)}</h3>
         <p>Hình thành từ: ${escapeHtml(formedFromNames.join(", "))}</p>
+        <a class="text-link" href="${escapeHtml(item.href)}">Mở trang thông tin</a>
       </article>
     `;
   }
@@ -136,6 +139,68 @@
         <h3>${escapeHtml(title)}</h3>
         <p>${escapeHtml(body)}</p>
       </article>
+    `;
+  }
+
+  function renderLinkCard(title, body, href, linkLabel, badges = []) {
+    return `
+      <article class="stack-card reveal is-visible">
+        <div class="stack-meta">${badges.join("")}</div>
+        <h3>${escapeHtml(title)}</h3>
+        <p>${escapeHtml(body)}</p>
+        <a class="text-link" href="${escapeHtml(href)}">${escapeHtml(linkLabel)}</a>
+      </article>
+    `;
+  }
+
+  function renderFactGrid(items) {
+    return `
+      <div class="fact-grid">
+        ${items.map((item) => `
+          <article class="fact-card reveal is-visible">
+            <span>${escapeHtml(item.label)}</span>
+            <strong>${escapeHtml(item.value)}</strong>
+          </article>
+        `).join("")}
+      </div>
+    `;
+  }
+
+  function renderLinkPills(items, basePath, emptyMessage) {
+    if (!items.length) {
+      return renderEmptyState(emptyMessage);
+    }
+
+    return `
+      <div class="inline-links inline-links-rich">
+        ${items.map((item) => `<a href="${escapeHtml(basePath)}/pages/commune.html?slug=${escapeHtml(item.slug)}">${escapeHtml(item.name)}</a>`).join("")}
+      </div>
+    `;
+  }
+
+  function renderTextPills(items, emptyMessage) {
+    if (!items.length) {
+      return renderEmptyState(emptyMessage);
+    }
+
+    return `
+      <div class="inline-links inline-links-rich">
+        ${items.map((item) => `<span>${escapeHtml(item)}</span>`).join("")}
+      </div>
+    `;
+  }
+
+  function renderBreadcrumbs(items) {
+    return `
+      <nav class="breadcrumb-trail" aria-label="Đường dẫn hồ sơ xã">
+        ${items.map((item, index) => {
+          const content = item.href
+            ? `<a href="${escapeHtml(item.href)}">${escapeHtml(item.label)}</a>`
+            : `<span aria-current="page">${escapeHtml(item.label)}</span>`;
+          const separator = index < items.length - 1 ? `<span class="breadcrumb-separator">/</span>` : "";
+          return `<div class="breadcrumb-item">${content}${separator}</div>`;
+        }).join("")}
+      </nav>
     `;
   }
 
@@ -199,6 +264,11 @@
     renderStatCard,
     renderModernUnitCard,
     renderInfoCard,
+    renderLinkCard,
+    renderFactGrid,
+    renderLinkPills,
+    renderTextPills,
+    renderBreadcrumbs,
     renderDetailHero,
     renderKeyValueList,
     renderRichSections

@@ -20,7 +20,17 @@
     <header class="site-header" data-site-header></header>
     <main>
       <section class="page-hero reveal">
-        <div class="container detail-hero" data-commune-hero></div>
+        <div class="container detail-hero">
+          <div data-commune-breadcrumb></div>
+          <div data-commune-hero></div>
+        </div>
+      </section>
+      <section class="section reveal">
+        <div class="container profile-mosaic">
+          <div class="profile-panel" data-commune-profile-cards></div>
+          <div class="profile-panel" data-commune-search-terms></div>
+          <div class="profile-panel" data-commune-same-cluster></div>
+        </div>
       </section>
       <section class="section reveal">
         <div class="container detail-layout">
@@ -41,6 +51,18 @@
           <div>
             <h2>Xã mới liên hệ</h2>
             <div class="stack-list" data-commune-modern-links></div>
+          </div>
+        </div>
+      </section>
+      <section class="section reveal">
+        <div class="container related-grid commune-deep-grid">
+          <div>
+            <h2>Hồ sơ xã liên quan</h2>
+            <div class="stack-list" data-commune-related-links></div>
+          </div>
+          <div>
+            <h2>Điều hướng hồ sơ</h2>
+            <div class="stack-list" data-commune-navigation></div>
           </div>
         </div>
       </section>
