@@ -711,8 +711,43 @@
 
   async function loadGallery() {
     const gallery = await dataApi.getGallery();
-    setHtml("[data-gallery-list]", gallery.map((item) => renderers.renderGalleryCard(item, dataApi.getBasePath())).join(""));
-    window.NgasonLightbox.initLightbox();
+    const categories = [...new Set(gallery.map((item) => item.category).filter(Boolean))];
+    const filtersElement = document.querySelector("[data-gallery-filters]");
+    const metaElement = document.querySelector("[data-gallery-meta]");
+
+    function renderGalleryResults(activeCategory) {
+      const matches = activeCategory
+        ? gallery.filter((item) => item.category === activeCategory)
+        : gallery;
+
+      setHtml("[data-gallery-list]", matches.length
+        ? matches.map((item) => renderers.renderGalleryCard(item, dataApi.getBasePath())).join("")
+        : renderers.renderEmptyState("Không có ảnh tư liệu nào trong chuyên mục này."));
+
+      if (metaElement) {
+        metaElement.textContent = activeCategory
+          ? `Đang hiển thị ${matches.length} ảnh trong chuyên mục "${activeCategory}".`
+          : `Đang hiển thị toàn bộ ${gallery.length} ảnh tư liệu.`;
+      }
+
+      window.NgasonLightbox.initLightbox();
+    }
+
+    if (filtersElement && categories.length > 1) {
+      const buttons = [`<button class="filter-btn is-active" data-filter="">Tất cả</button>`]
+        .concat(categories.map((cat) => `<button class="filter-btn" data-filter="${cat}">${cat}</button>`));
+      filtersElement.innerHTML = buttons.join("");
+
+      filtersElement.addEventListener("click", (event) => {
+        const btn = event.target.closest("[data-filter]");
+        if (!btn) return;
+        filtersElement.querySelectorAll(".filter-btn").forEach((b) => b.classList.remove("is-active"));
+        btn.classList.add("is-active");
+        renderGalleryResults(btn.dataset.filter || "");
+      });
+    }
+
+    renderGalleryResults("");
   }
 
   async function loadAbout(site) {

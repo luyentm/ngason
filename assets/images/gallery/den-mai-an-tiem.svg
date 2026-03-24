@@ -1,0 +1,23 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#F5EDE0"/>
+  <rect x="40" y="40" width="720" height="520" rx="24" fill="#FFF8EE" stroke="#D3AD88" stroke-width="3"/>
+  <!-- Mountain -->
+  <path d="M200 400L400 180L600 400Z" fill="#8BA888" stroke="#6B8B6A" stroke-width="2"/>
+  <path d="M300 400L420 250L540 400Z" fill="#9DB89A"/>
+  <!-- Temple roof -->
+  <path d="M300 380L400 320L500 380Z" fill="#8B2E1C" stroke="#6D2317" stroke-width="2"/>
+  <path d="M320 380L400 340L480 380Z" fill="#A63D2F"/>
+  <!-- Temple body -->
+  <rect x="330" y="380" width="140" height="60" fill="#D4B896"/>
+  <rect x="380" y="390" width="40" height="50" rx="2" fill="#6D3220"/>
+  <!-- Columns -->
+  <rect x="340" y="375" width="8" height="65" fill="#C4A882"/>
+  <rect x="452" y="375" width="8" height="65" fill="#C4A882"/>
+  <!-- Watermelon offering -->
+  <ellipse cx="400" cy="455" rx="18" ry="14" fill="#3A7D3A"/>
+  <path d="M388 455C388 455 394 448 400 448C406 448 412 455 412 455" stroke="#2A5C2A" stroke-width="2"/>
+  <!-- Ground -->
+  <rect x="100" y="440" width="600" height="40" rx="6" fill="#C9B896"/>
+  <!-- Title -->
+  <text x="400" y="530" text-anchor="middle" fill="#6D3220" font-family="serif" font-size="22" font-weight="bold">Đền Mai An Tiêm - Nga Phú</text>
+</svg>

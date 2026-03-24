@@ -151,14 +151,15 @@
   function renderGalleryCard(item, basePath) {
     const imagePath = `${basePath}/${item.image}`;
     return `
-      <article class="gallery-card reveal is-visible">
+      <article class="gallery-card reveal is-visible" data-gallery-category="${escapeHtml(item.category || "")}">
         <img src="${escapeHtml(imagePath)}" alt="${escapeHtml(item.alt)}">
         <div class="gallery-meta">
-          ${renderBadge(item.period)}
-          ${renderBadge(item.statusLabel, "badge-neutral")}
+          ${item.category ? renderBadge(item.category) : ""}
+          ${renderBadge(item.period, "badge-neutral")}
         </div>
         <h3>${escapeHtml(item.title)}</h3>
         <p class="gallery-caption">${escapeHtml(item.caption)}</p>
+        ${item.source ? `<p class="gallery-source">${escapeHtml(item.source)}</p>` : ""}
         <button class="button button-secondary" type="button" data-lightbox-trigger data-lightbox-image="${escapeHtml(imagePath)}" data-lightbox-alt="${escapeHtml(item.alt)}" data-lightbox-caption="${escapeHtml(item.caption)}">Xem ảnh lớn</button>
       </article>
     `;

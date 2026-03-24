@@ -1,0 +1,35 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#F8EDE0"/>
+  <rect x="40" y="40" width="720" height="520" rx="24" fill="#FFF6EC" stroke="#D4A876" stroke-width="3"/>
+  <!-- Temple complex -->
+  <!-- Main roof -->
+  <path d="M240 280L400 190L560 280Z" fill="#8B2E1C"/>
+  <path d="M250 280L400 200L550 280Z" fill="#A63D2F"/>
+  <!-- Curved roof edges -->
+  <path d="M240 280Q230 270 225 280" stroke="#8B2E1C" stroke-width="3" fill="none"/>
+  <path d="M560 280Q570 270 575 280" stroke="#8B2E1C" stroke-width="3" fill="none"/>
+  <!-- Temple body -->
+  <rect x="260" y="280" width="280" height="120" fill="#E8D4B8"/>
+  <!-- Columns -->
+  <rect x="280" y="275" width="10" height="125" fill="#D4BA98"/>
+  <rect x="330" y="275" width="10" height="125" fill="#D4BA98"/>
+  <rect x="460" y="275" width="10" height="125" fill="#D4BA98"/>
+  <rect x="510" y="275" width="10" height="125" fill="#D4BA98"/>
+  <!-- Central door -->
+  <rect x="370" y="310" width="60" height="90" rx="30 30 0 0" fill="#6D2317"/>
+  <!-- Incense burner -->
+  <rect x="385" y="415" width="30" height="20" rx="3" fill="#B8860B"/>
+  <line x1="395" y1="400" x2="395" y2="415" stroke="#999" stroke-width="1.5"/>
+  <line x1="400" y1="395" x2="400" y2="415" stroke="#999" stroke-width="1.5"/>
+  <line x1="405" y1="400" x2="405" y2="415" stroke="#999" stroke-width="1.5"/>
+  <!-- Steps -->
+  <rect x="300" y="400" width="200" height="10" fill="#D4BA98"/>
+  <rect x="310" y="410" width="180" height="10" fill="#C4AA88"/>
+  <rect x="320" y="420" width="160" height="10" fill="#B49A78"/>
+  <!-- Dragon ornament on roof -->
+  <path d="M390 195Q395 180 400 190Q405 180 410 195" stroke="#B8860B" stroke-width="2.5" fill="none"/>
+  <!-- Courtyard -->
+  <rect x="120" y="435" width="560" height="40" rx="6" fill="#E0CDB0"/>
+  <!-- Title -->
+  <text x="400" y="530" text-anchor="middle" fill="#6D2317" font-family="serif" font-size="22" font-weight="bold">Đền thờ Lê Thị Hoa - Nga Thiện</text>
+</svg>

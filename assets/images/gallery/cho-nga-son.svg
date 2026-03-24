@@ -1,0 +1,30 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#F4E8D4"/>
+  <rect x="40" y="40" width="720" height="520" rx="24" fill="#FDF6EA" stroke="#D4B07A" stroke-width="3"/>
+  <!-- Market roof structure -->
+  <path d="M120 260L400 140L680 260Z" fill="#B85C38" stroke="#8B4526" stroke-width="2"/>
+  <rect x="140" y="260" width="520" height="12" fill="#8B4526"/>
+  <!-- Support beams -->
+  <rect x="180" y="272" width="8" height="140" fill="#A67C5A"/>
+  <rect x="380" y="272" width="8" height="140" fill="#A67C5A"/>
+  <rect x="580" y="272" width="8" height="140" fill="#A67C5A"/>
+  <!-- Market stalls -->
+  <rect x="140" y="350" width="140" height="60" rx="4" fill="#E8D8C0" stroke="#C4A882" stroke-width="2"/>
+  <rect x="320" y="350" width="140" height="60" rx="4" fill="#E8D8C0" stroke="#C4A882" stroke-width="2"/>
+  <rect x="500" y="350" width="140" height="60" rx="4" fill="#E8D8C0" stroke="#C4A882" stroke-width="2"/>
+  <!-- Goods on stalls -->
+  <circle cx="170" cy="370" r="10" fill="#8BC34A"/>
+  <circle cx="195" cy="370" r="10" fill="#F44336"/>
+  <circle cx="220" cy="370" r="10" fill="#FF9800"/>
+  <circle cx="245" cy="370" r="10" fill="#8BC34A"/>
+  <rect x="340" y="360" width="30" height="20" rx="2" fill="#D4B07A"/>
+  <rect x="380" y="360" width="30" height="20" rx="2" fill="#C4A06A"/>
+  <rect x="420" y="360" width="30" height="20" rx="2" fill="#D4B07A"/>
+  <ellipse cx="540" cy="375" rx="20" ry="10" fill="#A5D6A7"/>
+  <ellipse cx="580" cy="375" rx="20" ry="10" fill="#81C784"/>
+  <ellipse cx="620" cy="375" rx="15" ry="10" fill="#A5D6A7"/>
+  <!-- Ground -->
+  <rect x="80" y="412" width="640" height="60" rx="6" fill="#E0CDB0"/>
+  <!-- Title -->
+  <text x="400" y="530" text-anchor="middle" fill="#6D3A1E" font-family="serif" font-size="22" font-weight="bold">Chợ Nga Sơn</text>
+</svg>

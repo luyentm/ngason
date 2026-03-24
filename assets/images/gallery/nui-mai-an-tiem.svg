@@ -1,0 +1,26 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#E0E8D8"/>
+  <rect x="40" y="40" width="720" height="520" rx="24" fill="#F0F4EC" stroke="#9BB88C" stroke-width="3"/>
+  <!-- Sky -->
+  <rect x="60" y="60" width="680" height="180" rx="16" fill="#B8D4E8"/>
+  <!-- Sun -->
+  <circle cx="600" cy="130" r="40" fill="#F4D03F" opacity="0.8"/>
+  <!-- Main mountain -->
+  <path d="M120 440L400 140L680 440Z" fill="#5A8B4A"/>
+  <path d="M180 440L400 180L620 440Z" fill="#6B9B5A"/>
+  <!-- Mountain texture -->
+  <path d="M300 340L340 300L380 340" stroke="#5A8B4A" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M420 320L460 280L500 320" stroke="#5A8B4A" stroke-width="2" fill="none" opacity="0.5"/>
+  <!-- Trees on mountain -->
+  <circle cx="300" cy="360" r="15" fill="#4A7B3A"/>
+  <circle cx="340" cy="340" r="12" fill="#3A6B2A"/>
+  <circle cx="460" cy="340" r="12" fill="#3A6B2A"/>
+  <circle cx="500" cy="360" r="15" fill="#4A7B3A"/>
+  <!-- Temple at base -->
+  <path d="M360 420L400 395L440 420Z" fill="#A63D2F"/>
+  <rect x="370" y="420" width="60" height="20" fill="#D4B896"/>
+  <!-- Ground -->
+  <rect x="80" y="440" width="640" height="30" rx="6" fill="#A8C898"/>
+  <!-- Title -->
+  <text x="400" y="530" text-anchor="middle" fill="#2E5B1E" font-family="serif" font-size="22" font-weight="bold">Núi Mai An Tiêm - Nga Phú</text>
+</svg>

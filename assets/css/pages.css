@@ -188,6 +188,41 @@
   font-weight: 700;
 }
 
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.filter-btn {
+  padding: 0.45rem 1rem;
+  border: 2px solid var(--forest, #335d54);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--forest, #335d54);
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.filter-btn:hover {
+  background: rgba(51, 93, 84, 0.08);
+}
+
+.filter-btn.is-active {
+  background: var(--forest, #335d54);
+  color: #fff;
+}
+
+.gallery-source {
+  font-size: 0.8rem;
+  color: var(--text-muted, #777);
+  margin-top: 0.4rem;
+  line-height: 1.4;
+}
+
 .gallery-card button {
   width: 100%;
   margin-top: 0.85rem;

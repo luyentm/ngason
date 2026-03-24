@@ -1,0 +1,28 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#D4E8C8"/>
+  <rect x="40" y="40" width="720" height="520" rx="24" fill="#E8F4E0" stroke="#8CB878" stroke-width="3"/>
+  <!-- Sky gradient -->
+  <rect x="60" y="60" width="680" height="200" rx="16" fill="#C8E0F4"/>
+  <!-- Clouds -->
+  <ellipse cx="200" cy="120" rx="60" ry="25" fill="white" opacity="0.7"/>
+  <ellipse cx="240" cy="115" rx="45" ry="20" fill="white" opacity="0.7"/>
+  <ellipse cx="550" cy="140" rx="50" ry="22" fill="white" opacity="0.7"/>
+  <!-- Far mountains -->
+  <path d="M60 260L180 180L300 240L420 170L540 230L660 190L740 260Z" fill="#8BA888" opacity="0.5"/>
+  <!-- Rice paddies - rows -->
+  <rect x="60" y="260" width="680" height="40" fill="#8BC34A"/>
+  <rect x="60" y="300" width="680" height="40" fill="#7CB342"/>
+  <rect x="60" y="340" width="680" height="40" fill="#689F38"/>
+  <rect x="60" y="380" width="680" height="40" fill="#558B2F"/>
+  <!-- Paddy dividers -->
+  <line x1="200" y1="260" x2="200" y2="420" stroke="#4A7B3A" stroke-width="1.5" opacity="0.4"/>
+  <line x1="350" y1="260" x2="350" y2="420" stroke="#4A7B3A" stroke-width="1.5" opacity="0.4"/>
+  <line x1="500" y1="260" x2="500" y2="420" stroke="#4A7B3A" stroke-width="1.5" opacity="0.4"/>
+  <line x1="650" y1="260" x2="650" y2="420" stroke="#4A7B3A" stroke-width="1.5" opacity="0.4"/>
+  <!-- Water reflection -->
+  <rect x="60" y="420" width="680" height="30" fill="#90CAF9" opacity="0.3" rx="4"/>
+  <!-- Path -->
+  <path d="M100 460Q250 440 400 455Q550 470 700 450" stroke="#C4A882" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- Title -->
+  <text x="400" y="530" text-anchor="middle" fill="#33691E" font-family="serif" font-size="22" font-weight="bold">Cánh đồng Nga Sơn</text>
+</svg>
