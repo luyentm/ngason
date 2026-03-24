@@ -1,33 +1,40 @@
 {
   "home": {
     "title": "Ký ức địa danh Nga Sơn",
-    "summary": "Một nơi để người Nga Sơn đi xa có thể tra cứu lại tên các xã cũ, lần theo các mốc sáp nhập, đọc lại những câu chuyện lịch sử và lưu giữ hình ảnh tư liệu theo cách bền vững, dễ mở rộng.",
+    "summary": "Tra cứu tên xã cũ, lần theo các mốc sáp nhập từ 1966 đến 2025, đọc lại chuyện người và đất Nga Sơn qua từng giai đoạn lịch sử.",
     "features": [
       {
         "kicker": "Địa danh",
         "title": "Danh sách xã cũ",
-        "summary": "Điểm vào trung tâm để gom các hồ sơ xã trước sáp nhập, từ tên gọi cũ đến dữ liệu liên quan.",
+        "summary": "Tra cứu hồ sơ các xã trước sáp nhập, tên gọi cũ, đơn vị kế thừa và xã hiện nay.",
         "href": "./pages/communes.html",
         "label": "Mở danh sách xã"
       },
       {
         "kicker": "Timeline",
         "title": "Lịch sử sáp nhập",
-        "summary": "Dựng lại các mốc hành chính theo trục thời gian để việc tra cứu không còn đứt đoạn.",
+        "summary": "Các mốc hành chính từ 1966 đến 2025 theo trục thời gian, gắn trực tiếp với từng hồ sơ xã.",
         "href": "./pages/timeline.html",
         "label": "Mở timeline"
       },
       {
+        "kicker": "Nhân vật",
+        "title": "Danh nhân Nga Sơn",
+        "summary": "Những người con Nga Sơn có dấu ấn trong lịch sử, khoa bảng, văn chương và đời sống đương đại.",
+        "href": "./pages/people.html",
+        "label": "Xem danh nhân"
+      },
+      {
         "kicker": "Tư liệu",
         "title": "Bài viết lịch sử",
-        "summary": "Không chỉ có tên địa danh, site còn hướng tới các bài viết có cấu trúc và nguồn tham khảo rõ ràng.",
+        "summary": "Bài viết chân dung nhân vật, lịch sử địa phương và ký ức cộng đồng có nguồn tham khảo.",
         "href": "./pages/posts.html",
         "label": "Xem bài viết"
       },
       {
         "kicker": "Thị giác",
         "title": "Ảnh tư liệu",
-        "summary": "Một thư viện ảnh để ký ức không chỉ được kể lại bằng chữ mà còn được nhìn thấy bằng hình.",
+        "summary": "Di tích, phong cảnh, nghề truyền thống và đời sống Nga Sơn qua hình ảnh.",
         "href": "./pages/gallery.html",
         "label": "Mở thư viện ảnh"
       }
@@ -64,41 +71,41 @@
     }
   ],
   "notices": [
-    "Phiên bản hiện tại là scaffold triển khai đầu tiên: cấu trúc site đã hoạt động, dữ liệu lịch sử chi tiết cần tiếp tục nhập và kiểm chứng từ nguồn địa phương.",
-    "Thiết kế ưu tiên tính bền vững: thêm xã mới, bài mới hoặc ảnh mới chủ yếu chỉ cần bổ sung dữ liệu JSON và tư liệu đi kèm."
+    "Năm 2025, huyện Nga Sơn sáp nhập các xã cũ thành 6 xã mới. Trang này giúp bạn tra ngược từ tên mới về tên cũ và lần theo toàn bộ lịch sử biến động hành chính.",
+    "Dữ liệu được biên tập từ nguồn công khai đã đối chiếu. Nếu bạn có tư liệu bổ sung hoặc muốn đóng góp ảnh, vui lòng liên hệ để cùng hoàn thiện kho lưu trữ."
   ],
   "about": {
     "sections": [
       {
         "title": "Mục tiêu",
         "paragraphs": [
-          "ngason.com được dựng theo hướng một kho tư liệu số có thể sống lâu: đọc tốt trên điện thoại, dễ bổ sung nội dung, và có cấu trúc đủ rõ để sau này thêm tìm kiếm, bản đồ hoặc các bộ sưu tập chuyên đề.",
-          "Ở bản khởi tạo này, trọng tâm là dựng kiến trúc nội dung và trải nghiệm điều hướng để khi dữ liệu thật được đưa vào, site không cần làm lại từ đầu."
+          "ngason.com là kho tư liệu số lưu giữ ký ức địa danh, lịch sử hành chính và con người Nga Sơn. Trang được thiết kế để đọc tốt trên điện thoại, dễ bổ sung nội dung và có cấu trúc đủ rõ để mở rộng dần theo thời gian.",
+          "Trọng tâm hiện tại là hệ thống hóa các xã cũ trước sáp nhập, dựng timeline biến động hành chính từ 1966 đến 2025, ghi lại chân dung danh nhân gốc Nga Sơn và lưu trữ ảnh tư liệu về di tích, phong cảnh, đời sống địa phương."
         ]
       },
       {
         "title": "Nguyên tắc biên tập",
         "paragraphs": [
-          "Mọi dữ liệu lịch sử, tên gọi cũ và mốc sáp nhập nên đi kèm nguồn hoặc trạng thái kiểm chứng. Site không nên lấp chỗ trống bằng thông tin chưa được xác nhận.",
-          "Với mỗi xã, mỗi bài viết và mỗi ảnh, nên có ít nhất một mô tả ngắn, nhãn trạng thái và liên kết chéo tới các nội dung liên quan."
+          "Mọi dữ liệu lịch sử, tên gọi cũ và mốc sáp nhập đều đi kèm nguồn hoặc nhãn trạng thái kiểm chứng. Trang không lấp chỗ trống bằng thông tin chưa được xác nhận.",
+          "Với mỗi xã, mỗi bài viết và mỗi ảnh đều có mô tả ngắn, nhãn trạng thái và liên kết chéo tới các nội dung liên quan."
         ],
         "list": [
           "Giữ URL ổn định theo slug không dấu.",
-          "Không hardcode nội dung lặp lại trong nhiều file HTML.",
-          "Tách dữ liệu khỏi giao diện để dễ bảo trì.",
-          "Ưu tiên trải nghiệm mobile-first vì nhiều người dùng sẽ truy cập bằng điện thoại."
+          "Tách dữ liệu khỏi giao diện để dễ bảo trì và cập nhật.",
+          "Ưu tiên trải nghiệm mobile-first vì nhiều người dùng truy cập bằng điện thoại.",
+          "Ghi rõ nguồn và trạng thái kiểm chứng cho mỗi mục dữ liệu."
         ]
       },
       {
-        "title": "Bước tiếp theo hợp lý",
+        "title": "Đóng góp tư liệu",
         "paragraphs": [
-          "Ngay sau scaffold này, công việc quan trọng nhất là nhập danh sách xã cũ đã được xác minh, sau đó điền timeline sáp nhập và kết nối tư liệu vào từng hồ sơ xã.",
-          "Khi dữ liệu đủ dày, có thể mở rộng sang tìm kiếm tên xã, lọc theo thời kỳ và bản đồ địa danh mà không cần đổi công nghệ nền."
+          "Nếu bạn là người Nga Sơn hoặc có tư liệu về các xã cũ, ảnh tư liệu, ký ức gia đình hoặc thông tin về danh nhân địa phương, bạn có thể đóng góp để kho lưu trữ này đầy đặn hơn.",
+          "Mọi đóng góp sẽ được ghi nguồn rõ ràng và đưa vào hệ thống với nhãn kiểm chứng phù hợp."
         ]
       }
     ]
   },
   "footer": {
-    "note": "Một website tĩnh được dựng để lưu trữ địa danh cũ, ký ức lịch sử và tư liệu Nga Sơn theo cách có thể mở rộng lâu dài mà không cần framework frontend."
+    "note": "ngason.com — Lưu giữ ký ức địa danh, lịch sử hành chính và tư liệu Nga Sơn."
   }
 }

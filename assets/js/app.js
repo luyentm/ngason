@@ -342,16 +342,24 @@
 
     setText("[data-home-title]", site.home.title);
     setText("[data-home-summary]", site.home.summary);
+
+    setHtml("[data-home-stats]", [
+      renderers.renderStatCard("Hồ sơ xã", String(communes.length), "Xã và thị trấn lịch sử đã có hồ sơ tra cứu"),
+      renderers.renderStatCard("Mốc lịch sử", String(timeline.length), "Sự kiện hành chính từ 1966 đến 2025"),
+      renderers.renderStatCard("Xã mới 2025", String(relations.modernUnits.length), "Đơn vị hiện nay sau sắp xếp"),
+      renderers.renderStatCard("Danh nhân", String(people.length), "Nhân vật gốc Nga Sơn đã có hồ sơ"),
+      renderers.renderStatCard("Bài viết", String(posts.length), "Bài chân dung và lịch sử địa phương"),
+      renderers.renderStatCard("Ảnh tư liệu", String(gallery.length), "Di tích, phong cảnh và đời sống")
+    ].join(""));
+
     setHtml("[data-feature-grid]", site.home.features.map(renderers.renderFeatureCard).join(""));
     setHtml("[data-home-communes]", communes.slice(0, 3).map((item) => renderers.renderCommuneCard(item, dataApi.getBasePath())).join(""));
     setHtml("[data-home-timeline]", timeline.slice(0, 3).map((item) => renderers.renderTimelineItem(item, getTimelineLinkItems(item.relatedCommunes, nameLookups))).join(""));
-    setHtml("[data-home-posts]", posts.slice(0, 2).map((item) => renderers.renderPostCard(item, dataApi.getBasePath())).join(""));
-    setHtml("[data-home-people]", people.slice(0, 2).map((item) => renderers.renderPersonCard(item, dataApi.getBasePath())).join(""));
-    setHtml("[data-home-gallery]", gallery.slice(0, 3).map((item) => `
-      <div class="gallery-thumb">
-        <img src="${resolvePath(item.image)}" alt="${item.alt}">
-      </div>
-    `).join(""));
+    setHtml("[data-home-posts]", posts.slice(0, 3).map((item) => renderers.renderPostCard(item, dataApi.getBasePath())).join(""));
+    setHtml("[data-home-people]", people.slice(0, 3).map((item) => renderers.renderPersonCard(item, dataApi.getBasePath())).join(""));
+    setHtml("[data-home-gallery]", gallery.slice(0, 4).map((item) => renderers.renderGalleryCard(item, dataApi.getBasePath())).join(""));
+
+    window.NgasonLightbox.initLightbox();
   }
 
   async function loadCommunes() {
